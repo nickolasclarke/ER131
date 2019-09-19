@@ -13,7 +13,4 @@ The effort will be divided between (i) learning a suite of data-driven modeling 
 
 We will work in Python in this course, and students must have taken Data 8 before enrolling. The course is designed to complement and reinforce Berkeley’s data science curriculum, in particular Data 100.
 
-
-| Homework | Summary          | Data                                                | Interact Link          |
-|----------|------------------| ----------------------------------------------------|------------------------|
-|    1     |  Introduction    | CAISO Daily Renewables Watch                        | TBD 					|
+Click [here](http://datahub.berkeley.edu/user-redirect/interact?account=duncancallaway&repo=ER131_2019&branch=master&path=) to go to this repo in datahub.  Clicking the link will refresh files added / modified since the last push to the repo.  
