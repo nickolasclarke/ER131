@@ -122,9 +122,8 @@ GSI: Salma Elmallah}
   \titlepage
 \end{frame}
 
-\begin{frame}{Announcements}
+\begin{frame}{Today}
 
-\textbf{Today}
 \begin{itemize}
 \item First: Finish reviewing Jupyter notebook on confidence intervals.
 \begin{itemize}
@@ -135,46 +134,33 @@ GSI: Salma Elmallah}
   \item Model selection is the method for dealing with bias-variance tradeoff
   \item It is one of the most important processes we do in statistical learning  
 \end{itemize}
-\item Second: Start working with NO2 data in Jupyter notebook
-\item Third: Group discussion for Alstone et al
+\item Third: Introduction to land use regression, start working with NO2 data in Jupyter notebook
+\begin{itemize}
+  \item We'll begin learning about a paper that uses one form of model selection.
+  \item Later in the semester you'll use the tools from this class to improve on this paper.
+\end{itemize}
 \end{itemize}
 
+\end{frame}
+
+\begin{frame}{Announcements}
 \textbf{Reading}
 \begin{itemize}
-\item Next tuesday: Novotny \textit{et al}, see questions in GitHub folder for lecture 12 reading.
-\item Next week: ISLR Ch 3.3.
+\item Today: ISLR 3.2
+\item Thursday: ISLR Ch 3.3.
+\item Next Tuesday: Novotny \textit{et al}, see questions in GitHub folder for lecture 12 reading.
 \end{itemize}
 
 \textbf{Survey posted!  Please respond}
 \end{frame}
 
 
-\begin{frame}{Mid term}
-
-\textbf{Not intended to be hard.  }
-\begin{itemize}
-\item Some basic theory, formula recall and application of mathematical concepts
-\begin{itemize}
-\item Anything on slides or in labs
-\item ISLR will reinforce, but I won't test things from ISLR not covered in lecture of lab.
-\end{itemize}
-\item Principles of EDA and visualization
-\item Basic questions about working in Python
-\begin{itemize}
-\item Setting up libraries
-\item Accessing information from data frames
-\item Etc.  
-\end{itemize}
-\end{itemize}
-
-\end{frame}
-
-\begin{frame}{Final project}
+\begin{frame}{Final project -- team and initial idea due Thursday}
 
 \begin{itemize}
 \item You can work with your own data
-\item But we will also suggest data sets
-\item Working in groups up to three ok but not required (you can self-organize)
+\item But we have also suggested data sets
+\item Working in groups up to three ok (you can self-organize)
 \item We will give you basic guardrails on what to do
 \begin{itemize}
 \item Pose a coherent question that can be addressed using the skills we are learning
@@ -322,7 +308,7 @@ $\hat{y}$!
 \vspace{5mm}
 \pause
 
-What measure should people doing prediction use to evaluate model performance, RSS, R$^2$ or $p$?
+What measure should people doing prediction use to evaluate model performance, coefficient confidence intervals, RSS, R$^2$ or $p$?
 
 \vspace{5mm}
 \pause
@@ -397,7 +383,10 @@ Akaike information criterion (AIC):
 \end{align*}
 \end{enumerate}
 
+$\hat{\sigma}$ is an estimate of the variance of the error $\epsilon$.
+
 \pause
+\vspace*{5mm}
 As you can see, AIC ``penalizes'' models with a high value of $d$.  
 \end{frame}
 
@@ -453,6 +442,10 @@ EPA Regulates NO2:
 \begin{figure}
 \includegraphics[width=\textwidth]{EPA_NO2_reg}
 \end{figure}
+
+\vspace{-4mm}
+
+{\footnotesize (Primary standards are designed to protect public health.  Secondary standards are designed to address visibility, crop protection, damage to buildings, and so on.)}
 \end{frame}
 
 \begin{frame}{Novotny \textit{et al} setup}
@@ -507,7 +500,7 @@ EPA Regulates NO2:
 
 
 \begin{frame}{}
-	Let's run some linear regression models with these data.  Move over to data hub.
+	Let's run some linear regression models with these data.  Move over to Jupyter notebook for today's lecture.
 
 \end{frame}
 

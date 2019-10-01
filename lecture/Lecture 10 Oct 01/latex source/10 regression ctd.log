@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 OCT 2019 07:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 OCT 2019 09:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1177,32 +1177,33 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10> not available
 Non-PDF special ignored!
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 149.
-LaTeX Font Info:    Try loading font information for U+msa on input line 149.
+LaTeX Font Info:    Try loading font information for U+msa on input line 144.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 149.
+LaTeX Font Info:    Try loading font information for U+msb on input line 144.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 149.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 144.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <8> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 149.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 144.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 149.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 144.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 149.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 149.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 144.
  [2
 
-] [3
+]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 155.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 155.
+ [3
 
 ]
 [4
@@ -1229,11 +1230,11 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 310.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 296.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 310.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 296.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 310.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 296.
  [15
 
 ] [16
@@ -1257,7 +1258,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 File: islr2_9b.pdf Graphic file (type pdf)
 
 <use islr2_9b.pdf>
-Package pdftex.def Info: islr2_9b.pdf used on input line 364.
+Package pdftex.def Info: islr2_9b.pdf used on input line 350.
 (pdftex.def)             Requested size: 149.52406pt x 193.50182pt.
  [24
 
@@ -1276,7 +1277,7 @@ Package pdftex.def Info: islr2_9b.pdf used on input line 364.
 File: pm2_5_LUR_Shaddick.pdf Graphic file (type pdf)
 
 <use pm2_5_LUR_Shaddick.pdf>
-Package pdftex.def Info: pm2_5_LUR_Shaddick.pdf used on input line 440.
+Package pdftex.def Info: pm2_5_LUR_Shaddick.pdf used on input line 429.
 (pdftex.def)             Requested size: 298.75394pt x 128.43567pt.
  [30
 
@@ -1284,7 +1285,7 @@ Package pdftex.def Info: pm2_5_LUR_Shaddick.pdf used on input line 440.
 <EPA_NO2_reg.png, id=366, 991.705pt x 189.70876pt>
 File: EPA_NO2_reg.png Graphic file (type png)
  <use EPA_NO2_reg.png>
-Package pdftex.def Info: EPA_NO2_reg.png used on input line 456.
+Package pdftex.def Info: EPA_NO2_reg.png used on input line 449.
 (pdftex.def)             Requested size: 398.3386pt x 76.20056pt.
 
 [31
@@ -1293,21 +1294,21 @@ Package pdftex.def Info: EPA_NO2_reg.png used on input line 456.
 File: aurora.jpg Graphic file (type jpg)
 
 <use aurora.jpg>
-Package pdftex.def Info: aurora.jpg used on input line 489.
+Package pdftex.def Info: aurora.jpg used on input line 482.
 (pdftex.def)             Requested size: 149.37697pt x 84.02292pt.
  [32
 
  <./aurora.jpg>]
 File: aurora.jpg Graphic file (type jpg)
  <use aurora.jpg>
-Package pdftex.def Info: aurora.jpg used on input line 489.
+Package pdftex.def Info: aurora.jpg used on input line 482.
 (pdftex.def)             Requested size: 149.37697pt x 84.02292pt.
  [33
 
 ]
 File: aurora.jpg Graphic file (type jpg)
  <use aurora.jpg>
-Package pdftex.def Info: aurora.jpg used on input line 489.
+Package pdftex.def Info: aurora.jpg used on input line 482.
 (pdftex.def)             Requested size: 149.37697pt x 84.02292pt.
 
 [34
@@ -1316,31 +1317,31 @@ Package pdftex.def Info: aurora.jpg used on input line 489.
 File: novotny_tab1_1.pdf Graphic file (type pdf)
 
 <use novotny_tab1_1.pdf>
-Package pdftex.def Info: novotny_tab1_1.pdf used on input line 506.
+Package pdftex.def Info: novotny_tab1_1.pdf used on input line 499.
 (pdftex.def)             Requested size: 85.24097pt x 145.12729pt.
 
 <novotny_tab1_2.pdf, id=396, 28.11273pt x 125.77188pt>
 File: novotny_tab1_2.pdf Graphic file (type pdf)
 
 <use novotny_tab1_2.pdf>
-Package pdftex.def Info: novotny_tab1_2.pdf used on input line 506.
+Package pdftex.def Info: novotny_tab1_2.pdf used on input line 499.
 (pdftex.def)             Requested size: 32.44048pt x 145.12729pt.
 
 <novotny_tab1_3.pdf, id=397, 169.61469pt x 125.77188pt>
 File: novotny_tab1_3.pdf Graphic file (type pdf)
 
 <use novotny_tab1_3.pdf>
-Package pdftex.def Info: novotny_tab1_3.pdf used on input line 506.
+Package pdftex.def Info: novotny_tab1_3.pdf used on input line 499.
 (pdftex.def)             Requested size: 195.72568pt x 145.12729pt.
 
 <novotny_tab1_4.pdf, id=398, 76.76239pt x 125.77188pt>
 File: novotny_tab1_4.pdf Graphic file (type pdf)
 
 <use novotny_tab1_4.pdf>
-Package pdftex.def Info: novotny_tab1_4.pdf used on input line 506.
+Package pdftex.def Info: novotny_tab1_4.pdf used on input line 499.
 (pdftex.def)             Requested size: 88.5794pt x 145.12729pt.
 
-Overfull \hbox (3.64793pt too wide) in paragraph at lines 506--506
+Overfull \hbox (3.64793pt too wide) in paragraph at lines 499--499
  [][][][] 
  []
 
@@ -1359,20 +1360,20 @@ y_tab1_4.pdf>] [36
 \tf@snm=\write11
 \openout11 = `"10 regression ctd.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 515.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 515.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 508.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 508.
  (./10 regression ctd.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 515.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 515.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 508.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 508.
 Package rerunfilecheck Info: File `"10 regression ctd".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25432 strings out of 492995
- 505988 string characters out of 6132704
- 605665 words of memory out of 5000000
- 28328 multiletter control sequences out of 15000+600000
- 56040 words of font info for 85 fonts, out of 8000000 for 9000
+ 25434 strings out of 492995
+ 506006 string characters out of 6132704
+ 605666 words of memory out of 5000000
+ 28329 multiletter control sequences out of 15000+600000
+ 58930 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,75p,785b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1393,7 +1394,7 @@ t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf
 xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb>
-Output written on "10 regression ctd.pdf" (36 pages, 2204759 bytes).
+Output written on "10 regression ctd.pdf" (36 pages, 2204854 bytes).
 PDF statistics:
  780 PDF objects out of 1000 (max. 8388607)
  594 compressed objects within 6 object streams
