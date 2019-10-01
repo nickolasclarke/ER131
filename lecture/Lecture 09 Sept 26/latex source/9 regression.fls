@@ -1,9 +1,9 @@
-PWD /Users/callaway/Dropbox/teaching/2019-2020/ER131/ER131_2019/lecture/Lecture 08 Sept 24/latex_source
+PWD /Users/callaway/Dropbox/teaching/2019-2020/ER131/ER131_2019/lecture/Lecture 09 Sept 26/latex source
 INPUT /usr/local/texlive/2017/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT 8 Models.tex
-OUTPUT 8 Models.log
+INPUT 9 regression.tex
+OUTPUT 9 regression.log
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/etoolbox/etoolbox.sty
@@ -212,7 +212,7 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/color/beamercol
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerthemedefault.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/inner/beamerinnerthemedefault.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericonbook.pdf
-OUTPUT 8 Models.pdf
+OUTPUT 9 regression.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericonbook.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericonbook.20.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericonbook.20.pdf
@@ -226,10 +226,6 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericononline.2
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/art/beamericononline.20.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemedefault.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/outer/beamerouterthemedefault.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/font/beamerfontthemeprofessionalfonts.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/font/beamerfontthemeprofessionalfonts.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeboxes.sty
-INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeboxes.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -331,9 +327,9 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/caption/caption3.sty
-INPUT 8 Models.aux
-INPUT 8 Models.aux
-OUTPUT 8 Models.aux
+INPUT 9 regression.aux
+INPUT 9 regression.aux
+OUTPUT 9 regression.aux
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/psnfss/t1phv.fd
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
@@ -349,13 +345,13 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 INPUT /usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
-INPUT 8 Models.out
-INPUT 8 Models.out
-INPUT 8 Models.out
-INPUT 8 Models.out
-INPUT ./8 Models.out
-INPUT ./8 Models.out
-OUTPUT 8 Models.out
+INPUT 9 regression.out
+INPUT 9 regression.out
+INPUT 9 regression.out
+INPUT 9 regression.out
+INPUT ./9 regression.out
+INPUT ./9 regression.out
+OUTPUT 9 regression.out
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-English.dict
@@ -368,8 +364,8 @@ INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/trans
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-English.dict
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
 INPUT /usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
-INPUT 8 Models.nav
-INPUT 8 Models.nav
+INPUT 9 regression.nav
+INPUT 9 regression.nav
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
@@ -382,8 +378,10 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
@@ -407,6 +405,17 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/rsfs/rsfs5.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
@@ -415,113 +424,56 @@ INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
-INPUT data/Huang_et_al/huang_pm25vcirc_notitle.pdf
-INPUT ./data/Huang_et_al/huang_pm25vcirc_notitle.pdf
-INPUT ./data/Huang_et_al/huang_pm25vcirc_notitle.pdf
-INPUT data/Huang_et_al/projectile_notitle.pdf
-INPUT ./data/Huang_et_al/projectile_notitle.pdf
-INPUT ./data/Huang_et_al/projectile_notitle.pdf
-INPUT data/Huang_et_al/huang_pm25vcirc_regplot.pdf
-INPUT ./data/Huang_et_al/huang_pm25vcirc_regplot.pdf
-INPUT ./data/Huang_et_al/huang_pm25vcirc_regplot.pdf
-INPUT data/Huang_et_al/projectile.pdf
-INPUT ./data/Huang_et_al/projectile.pdf
-INPUT ./data/Huang_et_al/projectile.pdf
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
-INPUT data/Huang_et_al/huang_pm25vcirc_regplot.pdf
-INPUT ./data/Huang_et_al/huang_pm25vcirc_regplot.pdf
-INPUT data/Huang_et_al/projectile.pdf
-INPUT ./data/Huang_et_al/projectile.pdf
-INPUT data/Huang_et_al/projectile_noise.pdf
-INPUT ./data/Huang_et_al/projectile_noise.pdf
-INPUT ./data/Huang_et_al/projectile_noise.pdf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvr8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvr8r.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvb8t.vf
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/cm/cmss8.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8t.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/rsfs/rsfs10.tfm
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/public/rsfs/rsfs7.tfm
-INPUT figures/islr2_9a.pdf
-INPUT ./figures/islr2_9a.pdf
-INPUT ./figures/islr2_9a.pdf
-INPUT figures/07_cross_validation_diagram.png
-INPUT ./figures/07_cross_validation_diagram.png
-INPUT ./figures/07_cross_validation_diagram.png
-INPUT figures/islr2_9a.pdf
-INPUT ./figures/islr2_9a.pdf
-INPUT figures/islr2_9b.pdf
-INPUT ./figures/islr2_9b.pdf
-INPUT ./figures/islr2_9b.pdf
-INPUT figures/islr2_9a.pdf
-INPUT ./figures/islr2_9a.pdf
-INPUT figures/islr2_9b.pdf
-INPUT ./figures/islr2_9b.pdf
-INPUT figures/islr2_12a_text.pdf
-INPUT ./figures/islr2_12a_text.pdf
-INPUT ./figures/islr2_12a_text.pdf
-INPUT figures/simple_min.pdf
-INPUT ./figures/simple_min.pdf
-INPUT ./figures/simple_min.pdf
-INPUT figures/multiple_min.pdf
-INPUT ./figures/multiple_min.pdf
-INPUT ./figures/multiple_min.pdf
-INPUT figures/multiple_extrema.pdf
-INPUT ./figures/multiple_extrema.pdf
-INPUT ./figures/multiple_extrema.pdf
-INPUT figures/simple_min.pdf
-INPUT ./figures/simple_min.pdf
-INPUT figures/multiple_extrema.pdf
-INPUT ./figures/multiple_extrema.pdf
-OUTPUT 8 Models.nav
-OUTPUT 8 Models.toc
-OUTPUT 8 Models.snm
-INPUT 8 Models.aux
-INPUT ./8 Models.out
-INPUT ./8 Models.out
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvr8t.tfm
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8t.tfm
+INPUT figures/pop-sample-mean.pdf
+INPUT ./figures/pop-sample-mean.pdf
+INPUT ./figures/pop-sample-mean.pdf
+INPUT figures/distribution.pdf
+INPUT ./figures/distribution.pdf
+INPUT ./figures/distribution.pdf
+INPUT figures/pop-sample-mean.pdf
+INPUT ./figures/pop-sample-mean.pdf
+INPUT figures/distribution.pdf
+INPUT ./figures/distribution.pdf
+INPUT figures/sample_mean_dist.pdf
+INPUT ./figures/sample_mean_dist.pdf
+INPUT ./figures/sample_mean_dist.pdf
+INPUT figures/sample_mean_dist.pdf
+INPUT ./figures/sample_mean_dist.pdf
+OUTPUT 9 regression.nav
+OUTPUT 9 regression.toc
+OUTPUT 9 regression.snm
+INPUT 9 regression.aux
+INPUT ./9 regression.out
+INPUT ./9 regression.out
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb
+INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
-INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb
