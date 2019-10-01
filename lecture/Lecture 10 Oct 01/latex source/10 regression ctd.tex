@@ -126,7 +126,15 @@ GSI: Salma Elmallah}
 
 \textbf{Today}
 \begin{itemize}
-\item First: slides, covering multiple regression and (one form of) model selection.  Slides in GitHub
+\item First: Finish reviewing Jupyter notebook on confidence intervals.
+\begin{itemize}
+  \item Objective: understand how a distribution of parameter values is possible when you train OLS with a sample from a population.  
+\end{itemize}
+\item Next: slides, covering multiple regression and (one form of) model selection.  Slides in GitHub
+\begin{itemize}
+  \item Model selection is the method for dealing with bias-variance tradeoff
+  \item It is one of the most important processes we do in statistical learning  
+\end{itemize}
 \item Second: Start working with NO2 data in Jupyter notebook
 \item Third: Group discussion for Alstone et al
 \end{itemize}
@@ -199,7 +207,7 @@ This implies there is more than a remote chance that there is no significant rel
 %%%%%%%%%%%%%
 \begin{frame}{p-values}
 
-p-values measure the probability that the estimated coefficients arose by chance from a data generating process that actually has \textit{no} relationship between the inputs and outputs.  
+\textbf{What are they?}  \pause p-values measure the probability that the estimated coefficients arose by chance from a data generating process that actually has \textit{no} relationship between the inputs and outputs.  
 
 \vspace{5mm}
 
@@ -240,12 +248,43 @@ What's wrong with these practices:
 
 ...is that by looking for the data set and the models that give low p-values, you could just be looking for those 5\% ``chances'' where the real relationship is non-existent.
 
-\vspace{5mm}\pause
+\vspace{5mm}
+
+In other words, if you flip a coin with 5\% probability it'll turn up heads enough times, eventually you get heads.
+
+\vspace{5mm}
+
+In the case of p-hacking, a getting a p-value of 5\% when there really is no relationship is the analogy to getting heads on that 5\% probability coin.
+\vspace{5mm}
+\pause
 
 Some estimates suggest that this practice leads to false positive rates of 61\%!
 
 \end{frame}
 
+
+\begin{frame}{The origins of p-hacking}
+
+Why do people do it?
+
+\pause 
+
+\vspace{5mm}
+\textbf{One explanation:}  Researchers are deliberately deceiving their peers.  They want good results so they go fisihing for them.
+
+\pause
+\vspace{5mm}
+
+\textbf{Maybe, but...} 
+\begin{itemize}
+  \item perhaps people simply don't understand the idea that their parameters are one draw from a \textit{distribution} of possible parameters
+  \item and therefore they don't really understand how to interpret $p$.
+\end{itemize}
+
+\vspace{5mm}
+
+Now you understand -- so my hope is that you'll always interpret these with caution!
+\end{frame}
 
 %%%%%%%%%%%%%
 \begin{frame}{Model accuracy: R$^2$}
@@ -270,9 +309,35 @@ It's good for capturing predictive power, but not for evaluating the significanc
 
 \end{frame}
 
+
+\begin{frame}{Let's be clear...}
+
+What do people doing prediction care about, $\hat{\beta}$ or $\hat{y}$?
+
+\vspace{5mm}
+\pause
+
+$\hat{y}$!
+
+\vspace{5mm}
+\pause
+
+What measure should people doing prediction use to evaluate model performance, RSS, R$^2$ or $p$?
+
+\vspace{5mm}
+\pause
+
+RSS or R$^2$ are suitable.  But there is much more to the story! 
+\begin{itemize}
+  \item Today we'll talk about adjustments to R$^2$ that attempt to address bias-variance tradeoff
+  \item  We'll discuss other approaches in the coming weeks.
+\end{itemize}
+
+\end{frame}
+
 \begin{frame}{Multivariate regression}
 
-This is exactly the same process as single (independent) variable regression.  Parameters solutions can be found by
+This is exactly the same process as single (independent) variable regression: minimize mean squared error (MSE).  Parameter solutions can be found by
 \begin{itemize}
 \item Gradient search
 \item Normal equations
@@ -325,7 +390,7 @@ With multiple regression, increasing the number of variables increases the flexi
 Akaike information criterion (AIC):
 
 \begin{enumerate}
-\item Construct all the models you have time for using \textit{all} the data to train the models.
+\item Construct all the models you have time for using \textit{all} the data (i.e. all your observations) to train the models.
 \item Then, choose the model with the lowest AIC, where
 \begin{align*}
 \text{AIC} = \frac{1}{n\hat{\sigma}^2}(\text{RSS}+2d\hat{\sigma}^2) \onslide<2->{= \frac{1}{\hat{\sigma}^2}\left(\frac{\text{RSS}}{n}\right) + \frac{2d}{n}}
@@ -446,79 +511,6 @@ EPA Regulates NO2:
 
 \end{frame}
 
-\begin{frame}{Reading questions}
-
-\begin{itemize}
-\item  Review Figure 1 in detail.  From a visualization perspective, what features of the figure do you appreciate?  Do you think it could be improved upon?
-\item In the section \textbf{Electricity and human development}, the authors state that their figure is 'consistent with an aggregate view of household-level diminishing returns on energy consumption....'  Discuss what the authors mean by this statement.  Do you agree?
-\item  In the section \textbf{The electricity continuum}, the authors argue that 'By overcoming access barriers, often through market-based structures, these systems provide incremental and often substantial increases in access to services, compared with the status quo.'  Contrast this statement to the premise of Lee \textit{et al} (which we read last week).  Is Alstone \textit{et al}'s view consistent or in conflict with Lee \textit{et al}?  
-\end{itemize}
-
-\end{frame}
-
-\begin{frame}
-Supplemental
-\end{frame}
-
-
-\begin{frame}{Important Questions for Multiple Linear Regression}
-  \begin{itemize}
-    \item Is at least one of the predictors X1 , X2 , . . . , Xp useful in predicting the response?
-    \begin{itemize}
-      \item cover only briefly
-    \end{itemize}
-    \item Do all the predictors help to explain Y, or is only a subset of the predictors useful?
-    \begin{itemize}
-      \item Review variable selection.  
-      \item Cue attention to Marshall et al approach.
-    \end{itemize}
-    \item How well does the model fit the data?
-    \begin{itemize}
-      \item Return to question of Rsq
-    \end{itemize}
-    \item Given a set of predictor values, what response value should we predict, and how accurate is our prediction?  
-    \begin{itemize}
-      \item Prediction intervals (contrast to confidence intervals)
-    \end{itemize}
-  \end{itemize}
-\end{frame}
-
-
-
-\begin{frame}{Basic sketch of the Novotny et al paper:}
-``Stepwise multivariate regression'':
-\begin{enumerate}
-\item The independent variable most correlated with the dependent variable is added to the model first
-\item Of the remaining variables, the one most correlated with model residuals is selected as the next independent variable
-\item Step 2 repeats on each new model with the remaining variables.  
-\begin{itemize}
-\item Variables are not kept in the model if $p>0.05$
-\item Variables are not kept in the model if they are collinear with others (we'll discuss this Tuesday).
-\end{itemize}
-\end{enumerate}
-\end{frame}
-
-
-\begin{frame}{Basic sketch for Novotny, ctd}
-
-Choosing the model:
-\begin{itemize}
-\item Model-building using a random sample of 90\% of the monitoring data 
-\item Tested the model's ability to predict the remaining 10\%. 
-\item Create 500 different random samples of training data -- calculate R2, error, and bias for all 500 iterations. 
-\end{itemize}
-
-\textbf{Question}: Why build the model with 90\% of the data only?\pause
-
-\vspace{5mm}
-\textbf{Answer}: to avoid choosing a model that over-fits the data.
-
-\vspace{5mm}
-In HW9, we'll go through a process similar (and arguably superior) to this one.
-
-\vspace{5mm}
-In HW6 -- next week -- we'll use a different method, known as AIC.  We'll go over that today.  
-\end{frame}
 	
 \end{document}
 
