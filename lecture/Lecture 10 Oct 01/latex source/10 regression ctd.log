@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  1 OCT 2019 09:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  2 OCT 2019 09:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1218,16 +1218,6 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10.95> not available
 
 ] [9
 
-] [10
-
-] [11
-
-] [12
-
-] [13
-
-] [14
-
 ]
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <14.4> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 296.
@@ -1235,106 +1225,75 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 296.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <7> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 296.
- [15
+ [10
+
+] [11
+
+] [12
+
+]
+<islr2_9b.pdf, id=97, 614.295pt x 794.97pt>
+File: islr2_9b.pdf Graphic file (type pdf)
+ <use islr2_9b.pdf>
+Package pdftex.def Info: islr2_9b.pdf used on input line 350.
+(pdftex.def)             Requested size: 149.52406pt x 193.50182pt.
+ [13
+
+ <./islr2_9b.pdf>] [14
+
+] [15
 
 ] [16
 
-] [17
-
-] [18
-
-] [19
-
 ]
-[20
-
-] [21
-
-] [22
-
-] [23
-
-] <islr2_9b.pdf, id=166, 614.295pt x 794.97pt>
-File: islr2_9b.pdf Graphic file (type pdf)
-
-<use islr2_9b.pdf>
-Package pdftex.def Info: islr2_9b.pdf used on input line 350.
-(pdftex.def)             Requested size: 149.52406pt x 193.50182pt.
- [24
-
- <./islr2_9b.pdf>] [25
-
-] [26
-
-] [27
-
-] [28
-
-] [29
-
-]
-<pm2_5_LUR_Shaddick.pdf, id=272, 986.18272pt x 423.97527pt>
+<pm2_5_LUR_Shaddick.pdf, id=192, 986.18272pt x 423.97527pt>
 File: pm2_5_LUR_Shaddick.pdf Graphic file (type pdf)
 
 <use pm2_5_LUR_Shaddick.pdf>
 Package pdftex.def Info: pm2_5_LUR_Shaddick.pdf used on input line 429.
 (pdftex.def)             Requested size: 298.75394pt x 128.43567pt.
- [30
+ [17
 
  <./pm2_5_LUR_Shaddick.pdf>]
-<EPA_NO2_reg.png, id=366, 991.705pt x 189.70876pt>
+<EPA_NO2_reg.png, id=285, 991.705pt x 189.70876pt>
 File: EPA_NO2_reg.png Graphic file (type png)
  <use EPA_NO2_reg.png>
 Package pdftex.def Info: EPA_NO2_reg.png used on input line 449.
 (pdftex.def)             Requested size: 398.3386pt x 76.20056pt.
 
-[31
+[18
 
- <./EPA_NO2_reg.png>] <aurora.jpg, id=376, 385.44pt x 216.81pt>
+ <./EPA_NO2_reg.png>] <aurora.jpg, id=295, 385.44pt x 216.81pt>
 File: aurora.jpg Graphic file (type jpg)
 
 <use aurora.jpg>
 Package pdftex.def Info: aurora.jpg used on input line 482.
 (pdftex.def)             Requested size: 149.37697pt x 84.02292pt.
- [32
+ [19
 
  <./aurora.jpg>]
-File: aurora.jpg Graphic file (type jpg)
- <use aurora.jpg>
-Package pdftex.def Info: aurora.jpg used on input line 482.
-(pdftex.def)             Requested size: 149.37697pt x 84.02292pt.
- [33
-
-]
-File: aurora.jpg Graphic file (type jpg)
- <use aurora.jpg>
-Package pdftex.def Info: aurora.jpg used on input line 482.
-(pdftex.def)             Requested size: 149.37697pt x 84.02292pt.
-
-[34
-
-] <novotny_tab1_1.pdf, id=395, 73.86931pt x 125.77188pt>
+<novotny_tab1_1.pdf, id=303, 73.86931pt x 125.77188pt>
 File: novotny_tab1_1.pdf Graphic file (type pdf)
 
 <use novotny_tab1_1.pdf>
 Package pdftex.def Info: novotny_tab1_1.pdf used on input line 499.
 (pdftex.def)             Requested size: 85.24097pt x 145.12729pt.
 
-<novotny_tab1_2.pdf, id=396, 28.11273pt x 125.77188pt>
+<novotny_tab1_2.pdf, id=304, 28.11273pt x 125.77188pt>
 File: novotny_tab1_2.pdf Graphic file (type pdf)
 
 <use novotny_tab1_2.pdf>
 Package pdftex.def Info: novotny_tab1_2.pdf used on input line 499.
 (pdftex.def)             Requested size: 32.44048pt x 145.12729pt.
 
-<novotny_tab1_3.pdf, id=397, 169.61469pt x 125.77188pt>
+<novotny_tab1_3.pdf, id=305, 169.61469pt x 125.77188pt>
 File: novotny_tab1_3.pdf Graphic file (type pdf)
 
 <use novotny_tab1_3.pdf>
 Package pdftex.def Info: novotny_tab1_3.pdf used on input line 499.
 (pdftex.def)             Requested size: 195.72568pt x 145.12729pt.
 
-<novotny_tab1_4.pdf, id=398, 76.76239pt x 125.77188pt>
+<novotny_tab1_4.pdf, id=306, 76.76239pt x 125.77188pt>
 File: novotny_tab1_4.pdf Graphic file (type pdf)
 
 <use novotny_tab1_4.pdf>
@@ -1345,10 +1304,10 @@ Overfull \hbox (3.64793pt too wide) in paragraph at lines 499--499
  [][][][] 
  []
 
-[35
+[20
 
  <./novotny_tab1_1.pdf> <./novotny_tab1_2.pdf> <./novotny_tab1_3.pdf> <./novotn
-y_tab1_4.pdf>] [36
+y_tab1_4.pdf>] [21
 
 ]
 \tf@nav=\write9
@@ -1369,13 +1328,13 @@ Package rerunfilecheck Info: File `"10 regression ctd".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 25434 strings out of 492995
- 506006 string characters out of 6132704
- 605666 words of memory out of 5000000
- 28329 multiletter control sequences out of 15000+600000
+ 25409 strings out of 492995
+ 505790 string characters out of 6132704
+ 604686 words of memory out of 5000000
+ 28333 multiletter control sequences out of 15000+600000
  58930 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,15n,75p,785b,610s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,15n,75p,785b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texl
@@ -1394,10 +1353,10 @@ t/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2017/texmf
 xmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/urw/helvetic/uhvro8a.pfb>
-Output written on "10 regression ctd.pdf" (36 pages, 2204854 bytes).
+Output written on "10 regression ctd.pdf" (21 pages, 2188125 bytes).
 PDF statistics:
- 780 PDF objects out of 1000 (max. 8388607)
- 594 compressed objects within 6 object streams
- 73 named destinations out of 1000 (max. 500000)
+ 682 PDF objects out of 1000 (max. 8388607)
+ 511 compressed objects within 6 object streams
+ 43 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

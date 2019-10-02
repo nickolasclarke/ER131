@@ -465,10 +465,6 @@ INPUT ./aurora.jpg
 INPUT ./aurora.jpg
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/vf/adobe/helvetic/phvro8t.vf
 INPUT /usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvro8r.tfm
-INPUT aurora.jpg
-INPUT ./aurora.jpg
-INPUT aurora.jpg
-INPUT ./aurora.jpg
 INPUT novotny_tab1_1.pdf
 INPUT ./novotny_tab1_1.pdf
 INPUT ./novotny_tab1_1.pdf
