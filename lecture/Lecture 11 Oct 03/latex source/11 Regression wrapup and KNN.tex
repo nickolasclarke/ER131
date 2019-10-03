@@ -123,25 +123,19 @@ GSI: Salma Elmallah}
   \titlepage
 \end{frame}
 
-\begin{frame}
-
-COVER KNN 
-
-\end{frame}
-
 \begin{frame}{Announcements}
 
 \textbf{Today}
 \begin{itemize}
-\item Some regression loose ends
-\item Discuss Novotny \textit{et al}
+\item Quantitative vs qualitative (categorical) features
+\item Nonlinear features
+\item A few things to watch out for in OLS
 \end{itemize}
 
 \textbf{Reading}
 \begin{itemize}
-\item Today: Novotny \textit{et al}
-\item Thursday: DS100 Ch 11 (Gradient descent)
-\item Next Tuesday: Clark, Millet and Marshall, \textit{PloS One} 2014.
+\item Tuesday: DS100 Ch 11 (Gradient descent) and Novotny \textit{et al}
+\item Next Thursday: ISLR 5.1-5.2 (Resampling)
 \end{itemize}
 \end{frame}
 
@@ -172,9 +166,27 @@ COVER KNN
 \end{columns}
 \end{frame}
 
+\begin{frame}{If you were a policy-maker...}
+How would you use the information in these maps?
+
+\begin{itemize}
+  \item Head Start centers
+  \item Tax benefits
+  \item Priority for selective schools (not race-based?)
+  \item Allocate resources to the places with the most upward mobility?
+  \item Allocate resources to the places with the lowest income potential?
+\end{itemize}
+
+What would you question about the validity of the predictions?
+\begin{itemize}
+  \item These are for kids raised 30+ years ago -- are things still the same?
+\end{itemize}
+\end{frame}
+
 \begin{frame}{Is this a qualitative predictor?}
 
-Pop-up shops are an annoying way to get me to think shopping is fun.
+Pop-up shops are a marketing gimmick to get Duncan to think shopping is fun.
+
 \begin{enumerate}
 \item Strongly disagree
 \item Disagree
@@ -399,7 +411,7 @@ We can specify virtually any nonlinear model you can think of. For example:
 $f(x_i)$ can be any function you want!
 
 \vspace{5mm}
-Let's see how this might play out in the Novotny data. Check out the Lecture 12 Jupyter notebook.
+Let's see how this might play out in the Novotny data. Check out the Lecture 11 Jupyter notebook.
 
 \end{frame}
 
@@ -414,7 +426,7 @@ Let's see how this might play out in the Novotny data. Check out the Lecture 12 
   \end{itemize}
 \end{frame}
 
-\begin{frame}{Collinearity}
+\begin{frame}{Colinearity}
 
 \begin{itemize}
 \item Collineartity is the condition in which independent variables are strongly correlated with each other.  
@@ -426,12 +438,16 @@ Let's see how this might play out in the Novotny data. Check out the Lecture 12 
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Colinearity -- example from ISLR}
+\begin{frame}{Colinearity -- example from ISLR. Plots show MSE contours}
 
 \begin{figure}
-\includegraphics[height=0.8\textheight]{ISLR_fig3_15}
+\includegraphics[height=0.7\textheight]{ISLR_fig3_15}
 \caption*{}
 \end{figure}
+
+\vspace{-10mm}
+
+Having such ``steep'' MSE contours makes the standard error, or variance, of the coefficients larger.  
 
 \end{frame}
 
@@ -445,25 +461,36 @@ We can measure the extent to which collinearity seems to be impacting results by
 &\geq 1
 \end{align*}
 
+\vspace{5mm}
+
+Novotny et al use VIF for feature selection.
+
+\vspace{5mm}
+
 \textbf{Question:} If we are focusing on prediction, should we care about evaluating VIF?
 
 
 \end{frame}
 
-\begin{frame}{Reading questions: Novotny et al}
+\begin{frame}{K Nearest Neighbors regression}
 
+This is a very simple non-parametric approach to regression.
 \begin{itemize}
-\item Describe the basic model selection process and how it differs from AIC (which we learned briefly in class on Thursday). This question can be answered if you read Section 2.2 and 2.3 carefully and do a little background research to understand unfamiliar terms.
-
-\item The authors compare R2 values for the test data versus R2 for the training data. What do they observe? What does this imply about their data and model? Read Section 3.3 to answer this question.
-
-\item Also in section 3.3 the authors state "We also investigated the extent to which monitor locations span the (independent) variable space, an important issue for any LUR". What does this mean? Why is spanning the variable space important?
-
-\item The authors discuss several limitations in the Discussion section. Review these. How important are their limitations? Are there others you think are worth considering?
-
-\item Why use the VIF metric if they are doing prediction?
+  \item Suppose we have a prediction point $x_0$.
+  \item Identify the $K$ observations closest to $x_0$ 
+  \begin{itemize}
+    \item You'll need to choose a measure of distance -- Euclidean is common
+  \end{itemize}
+  \item Define $\mathcal{N}_0$ as the set of $K$ points
+  \item KNN estimates $f(x_0)$ using the average of the output variables of the observations in $\mathcal{N}_0$.
 \end{itemize}
+
+\begin{align*}
+  \hat{f}(x_0) = \frac{1}{K} \sum_{x_i \in \mathcal{N}_0} y_i
+\end{align*}
+
 \end{frame}
+
 
 
 

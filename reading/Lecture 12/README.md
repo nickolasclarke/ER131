@@ -1,6 +1,8 @@
 ### Lecture 12 reading
 
-Novotny *et al*, "National Satellite-Based Land-Use Regression: NO2 in the United States,", Environmental Science and Technology (2011).
+**First**, read Chapter 11 of the DS100 textbook, on gradient descent.
+
+**Second**, read Novotny *et al*, "National Satellite-Based Land-Use Regression: NO2 in the United States,", Environmental Science and Technology (2011).
 
 The paper is very technical and will take you a long time to digest if you read everything.  I'd like you to focus on the following questions:
 
