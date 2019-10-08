@@ -1,5 +1,5 @@
-%\documentclass[aspectratio=169, handout]{beamer}
-\documentclass[aspectratio=169]{beamer}
+\documentclass[aspectratio=169, handout]{beamer}
+%\documentclass[aspectratio=169]{beamer}
 
 
 \makeatletter
@@ -517,6 +517,43 @@ So once the solution is close, it won't converge, unless...\pause we use a dynam
 \end{enumerate}
 \end{frame}
 
+\begin{frame}{Novotny answers}
+\begin{enumerate}
+  \item Model selection:
+  \begin{itemize}
+    \item build model by adding variables sequentially
+    \item variable most correlated with \textit{residuals} from prior model added to next candidate
+    \item variables stay in the model if $p<0.05$ and VIF$<5$
+    \item stop when the next added independent variable would not be statistically significant or would fail the VIF multicollinearity check
+  \end{itemize}
+  Note, in my opinion this misses the mark for what we \textit{should} be doing.  Any guesses why?
+  \pause
+  \begin{itemize}
+    \item They should only care about test error.  
+  \end{itemize}
+  
+\end{enumerate}
+\end{frame}
+
+
+
+\begin{frame}{Novotny answers}
+
+
+2. They find R2 for test error is comparable to training --> they are not overfitting the model.  But could they do better?
+
+3. ``spanning the variable space'' is important for validity of the prediction model.  Trying to predict variables outside of the range you used to build your model raises questions about external validity.
+
+4. 
+\begin{itemize}
+  \item ``we do not investigate sources such as industry, airports, or harbors''
+  \item ``our model is derived from road length rather than traffic volumes''
+  \item ``our model performance evaluations employ the data used to derive the model''
+  \item ``our model only predicts outdoor concentrations''
+\end{itemize}
+
+
+\end{frame}
 \end{document}
 
 
