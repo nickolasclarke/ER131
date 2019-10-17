@@ -76,6 +76,32 @@ GSI: Salma Elmallah}
 \frame{
   \titlepage
 }
+\begin{frame}{Agenda}
+
+Today
+\begin{itemize}
+	\item Discuss reading (Metz, NYT 2019)
+	\item Talk about new ways to do model selection
+\end{itemize}
+
+Coming up
+\begin{itemize}
+	\item No reading for Tuesday
+	\item Thursday: ISLR 4.1-4.3.1; Google research article (see github) 
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Reading}
+
+\begin{itemize}
+	\item How is the work described relevant to prediction problems?  
+	\item  Is the work described in this article is a "necessary evil" in the sense that the upside reward to having so many images classified is far greater than the cost to individual workers?
+	\item  Do you agree with the sentiment in this quote: "The work is easily misunderstood, said Ms. Gray, the Microsoft anthropologist. Listening to people cough all day may be disgusting, but that is also how doctors spend their days. 'We don’t think of that as drudgery,' she said."
+\end{itemize}
+
+
+\end{frame}
 
 \begin{frame}{Introduction}
 We've been working a lot with this model:
@@ -349,6 +375,29 @@ OLS can't solve models with $k>n$ features.
 
 \end{frame}
 
+
+\begin{frame}{What's the problem with forward and backward selection?}
+
+\pause
+
+``State dependence''
+\vspace{5mm}
+
+Example: 
+\begin{itemize}
+	\item Suppose a model with only feature 1 looks great as the first feature to add.  
+	\item But suppose a model with only features 2 and 3 is even better.  
+	\item Forward subset selection will miss the model with features 2 and 3 only.  
+\end{itemize}
+
+In this way, it's possible that we'll miss the best model if we use an approach like forward or backward subset selection.
+
+\vspace{5mm}
+
+But hopefully we'll get close.
+
+\end{frame}
+
 \begin{frame}{Tracing the best model}
 
 \begin{figure}
@@ -562,7 +611,15 @@ In our case, the sum of squared coefficients in Ridge makes the problem very sim
 In forecasting, the reduction in output variance is more important than the growth in coefficient bias.   \\~\\
 
 But it means we need to throw inference out the window.  
+\end{frame}
 
+\begin{frame}{Side note: Shrinkage}
+
+Regularization methods are sometimes called ``shrinkage'' methods.  Why?
+
+\pause\vspace{5mm}
+
+The ``squash'' the coefficients that tend to increase the variance of the model's predictions.
 
 \end{frame}
 
