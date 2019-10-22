@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 OCT 2019 09:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  22 OCT 2019 12:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -880,32 +880,32 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 57.
+(hyperref)                removing `\\' on input line 58.
 
 (./15 Model Selection ctd.aux)
 \openout1 = `"15 Model Selection ctd.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
-LaTeX Font Info:    ... okay on input line 72.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 72.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 72.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 73.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    ... okay on input line 73.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -973,7 +973,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box63
-Package hyperref Info: Link coloring OFF on input line 72.
+Package hyperref Info: Link coloring OFF on input line 73.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -983,9 +983,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count184
 )
-LaTeX Info: Redefining \ref on input line 72.
-LaTeX Info: Redefining \pageref on input line 72.
-LaTeX Info: Redefining \nameref on input line 72.
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+LaTeX Info: Redefining \nameref on input line 73.
 
 (./15 Model Selection ctd.out) (./15 Model Selection ctd.out)
 \@outlinefile=\write6
@@ -1016,14 +1016,14 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 72.
+LaTeX Info: Redefining \includegraphics on input line 73.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
 (./15 Model Selection ctd.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 76.
+(Font)              size <5> substituted on input line 77.
 
 [1
 Non-PDF special ignored!
@@ -1035,12 +1035,12 @@ Missing character: There is no ™ in font cmss10!
  [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 108.
+LaTeX Font Info:    Try loading font information for U+msa on input line 109.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 108.
+LaTeX Font Info:    Try loading font information for U+msb on input line 109.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1053,9 +1053,50 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [6
 
-] [7
+] <4choosek.pdf, id=58, 296.26747pt x 438.39232pt>
+File: 4choosek.pdf Graphic file (type pdf)
+ <use 4choosek.pdf>
+Package pdftex.def Info: 4choosek.pdf used on input line 175.
+(pdftex.def)             Requested size: 125.91426pt x 186.31761pt.
 
-] [8
+<4choosek_M0.pdf, id=59, 296.53354pt x 439.31429pt>
+File: 4choosek_M0.pdf Graphic file (type pdf)
+ <use 4choosek_M0.pdf>
+Package pdftex.def Info: 4choosek_M0.pdf used on input line 175.
+(pdftex.def)             Requested size: 126.02734pt x 186.70946pt.
+
+<4choosek_M1.pdf, id=60, 296.35257pt x 438.26672pt>
+File: 4choosek_M1.pdf Graphic file (type pdf)
+ <use 4choosek_M1.pdf>
+Package pdftex.def Info: 4choosek_M1.pdf used on input line 175.
+(pdftex.def)             Requested size: 125.95042pt x 186.26422pt.
+
+<4choosek_M2.pdf, id=61, 294.15517pt x 435.83298pt>
+File: 4choosek_M2.pdf Graphic file (type pdf)
+ <use 4choosek_M2.pdf>
+Package pdftex.def Info: 4choosek_M2.pdf used on input line 175.
+(pdftex.def)             Requested size: 125.01653pt x 185.22987pt.
+
+<4choosek_M3.pdf, id=62, 295.41777pt x 436.31418pt>
+File: 4choosek_M3.pdf Graphic file (type pdf)
+ <use 4choosek_M3.pdf>
+Package pdftex.def Info: 4choosek_M3.pdf used on input line 175.
+(pdftex.def)             Requested size: 125.55313pt x 185.4344pt.
+
+<4choosek_M4.pdf, id=63, 295.9352pt x 438.09421pt>
+File: 4choosek_M4.pdf Graphic file (type pdf)
+ <use 4choosek_M4.pdf>
+Package pdftex.def Info: 4choosek_M4.pdf used on input line 175.
+(pdftex.def)             Requested size: 125.77304pt x 186.1909pt.
+
+Overfull \hbox (537.56271pt too wide) in paragraph at lines 175--175
+ [][][][][][] 
+ []
+
+[7
+
+ <./4choosek.pdf> <./4choosek_M0.pdf> <./4choosek_M1.pdf> <./4choosek_M2.pdf> <
+./4choosek_M3.pdf> <./4choosek_M4.pdf>] [8
 
 ] [9
 
@@ -1065,68 +1106,122 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ] [12
 
+] [13
+
 ]
-<4choosek.pdf, id=89, 296.26747pt x 438.39232pt>
-File: 4choosek.pdf Graphic file (type pdf)
- <use 4choosek.pdf>
-Package pdftex.def Info: 4choosek.pdf used on input line 174.
-(pdftex.def)             Requested size: 125.91426pt x 186.31761pt.
- [13
+<RSE_contour.pdf, id=320, 160.92963pt x 187.13113pt>
+File: RSE_contour.pdf Graphic file (type pdf)
+ <use RSE_contour.pdf>
+Package pdftex.def Info: RSE_contour.pdf used on input line 330.
+(pdftex.def)             Requested size: 104.60301pt x 121.63377pt.
 
- <./4choosek.pdf>] <4choosek_M0.pdf, id=142, 296.53354pt x 439.31429pt>
-File: 4choosek_M0.pdf Graphic file (type pdf)
+<RSE_subset_constr.pdf, id=321, 172.15176pt x 190.94307pt>
+File: RSE_subset_constr.pdf Graphic file (type pdf)
 
-<use 4choosek_M0.pdf>
-Package pdftex.def Info: 4choosek_M0.pdf used on input line 174.
-(pdftex.def)             Requested size: 126.02734pt x 186.70946pt.
+<use RSE_subset_constr.pdf>
+Package pdftex.def Info: RSE_subset_constr.pdf used on input line 330.
+(pdftex.def)             Requested size: 111.8973pt x 124.11151pt.
+
+Overfull \hbox (3.5613pt too wide) in paragraph at lines 330--330
+[][][]  
+ []
+
+<RSE_lasso_constr.pdf, id=322, 153.10219pt x 185.42014pt>
+File: RSE_lasso_constr.pdf Graphic file (type pdf)
+
+<use RSE_lasso_constr.pdf>
+Package pdftex.def Info: RSE_lasso_constr.pdf used on input line 330.
+(pdftex.def)             Requested size: 99.51523pt x 120.52165pt.
+
+<RSE_ridge_constr.pdf, id=323, 153.10219pt x 185.42014pt>
+File: RSE_ridge_constr.pdf Graphic file (type pdf)
+
+<use RSE_ridge_constr.pdf>
+Package pdftex.def Info: RSE_ridge_constr.pdf used on input line 330.
+(pdftex.def)             Requested size: 99.51523pt x 120.52165pt.
  [14
 
- <./4choosek_M0.pdf>]
-<4choosek_M1.pdf, id=183, 296.35257pt x 438.26672pt>
-File: 4choosek_M1.pdf Graphic file (type pdf)
- <use 4choosek_M1.pdf>
-Package pdftex.def Info: 4choosek_M1.pdf used on input line 174.
-(pdftex.def)             Requested size: 125.95042pt x 186.26422pt.
+ <./RSE_contour.pdf> <./RSE_subset_constr.pdf> <./RSE_lasso_constr.pdf> <./RSE_
+ridge_constr.pdf>]
+<lasso-ridge-subset-vs-ols.pdf, id=708, 507.27821pt x 413.2219pt>
+File: lasso-ridge-subset-vs-ols.pdf Graphic file (type pdf)
+
+<use lasso-ridge-subset-vs-ols.pdf>
+Package pdftex.def Info: lasso-ridge-subset-vs-ols.pdf used on input line 352.
+(pdftex.def)             Requested size: 228.27307pt x 185.94812pt.
+
+Overfull \vbox (3.24681pt too high) detected at line 352
+ []
 
 [15
 
- <./4choosek_M1.pdf>] <4choosek_M2.pdf, id=223, 294.15517pt x 435.83298pt>
-File: 4choosek_M2.pdf Graphic file (type pdf)
+ <./lasso-ridge-subset-vs-ols.pdf>] [16
 
-<use 4choosek_M2.pdf>
-Package pdftex.def Info: 4choosek_M2.pdf used on input line 174.
-(pdftex.def)             Requested size: 125.01653pt x 185.22987pt.
- [16
+]
+<lasso-v-ridge-45variables.pdf, id=732, 163.93987pt x 126.83395pt>
+File: lasso-v-ridge-45variables.pdf Graphic file (type pdf)
 
- <./4choosek_M2.pdf>]
-<4choosek_M3.pdf, id=263, 295.41777pt x 436.31418pt>
-File: 4choosek_M3.pdf Graphic file (type pdf)
- <use 4choosek_M3.pdf>
-Package pdftex.def Info: 4choosek_M3.pdf used on input line 174.
-(pdftex.def)             Requested size: 125.55313pt x 185.4344pt.
+<use lasso-v-ridge-45variables.pdf>
+Package pdftex.def Info: lasso-v-ridge-45variables.pdf used on input line 389.
+(pdftex.def)             Requested size: 163.93945pt x 126.83363pt.
 
-[17
+<lasso-v-ridge-2variables.pdf, id=733, 161.35683pt x 124.49551pt>
+File: lasso-v-ridge-2variables.pdf Graphic file (type pdf)
 
- <./4choosek_M3.pdf>] <4choosek_M4.pdf, id=304, 295.9352pt x 438.09421pt>
-File: 4choosek_M4.pdf Graphic file (type pdf)
+<use lasso-v-ridge-2variables.pdf>
+Package pdftex.def Info: lasso-v-ridge-2variables.pdf used on input line 389.
+(pdftex.def)             Requested size: 161.35641pt x 124.4952pt.
+ [17
 
-<use 4choosek_M4.pdf>
-Package pdftex.def Info: 4choosek_M4.pdf used on input line 174.
-(pdftex.def)             Requested size: 125.77304pt x 186.1909pt.
+ <./lasso-v-ridge-45variables.pdf> <./lasso-v-ridge-2variables.pdf>]
+File: lasso-v-ridge-45variables.pdf Graphic file (type pdf)
+ <use lasso-v-ridge-45variables.pdf>
+Package pdftex.def Info: lasso-v-ridge-45variables.pdf used on input line 407.
+(pdftex.def)             Requested size: 163.93945pt x 126.83363pt.
+File: lasso-v-ridge-2variables.pdf Graphic file (type pdf)
+
+<use lasso-v-ridge-2variables.pdf>
+Package pdftex.def Info: lasso-v-ridge-2variables.pdf used on input line 407.
+(pdftex.def)             Requested size: 161.35641pt x 124.4952pt.
  [18
 
- <./4choosek_M4.pdf>] [19
+]
+<bias-variance-lasso-2.pdf, id=848, 162.70569pt x 128.23569pt>
+File: bias-variance-lasso-2.pdf Graphic file (type pdf)
 
-] [20
+<use bias-variance-lasso-2.pdf>
+Package pdftex.def Info: bias-variance-lasso-2.pdf used on input line 426.
+(pdftex.def)             Requested size: 138.30048pt x 109.00084pt.
+
+<lasso-tenfold.pdf, id=849, 326.86603pt x 132.32849pt>
+File: lasso-tenfold.pdf Graphic file (type pdf)
+ <use lasso-tenfold.pdf>
+Package pdftex.def Info: lasso-tenfold.pdf used on input line 426.
+(pdftex.def)             Requested size: 277.83742pt x 112.47974pt.
+
+[19
+
+ <./bias-variance-lasso-2.pdf> <./lasso-tenfold.pdf>] [20
 
 ] [21
 
-] [22
-
-] [23
-
 ]
-[24
+<bias-variance-ridge.pdf, id=988, 160.79431pt x 125.02208pt>
+File: bias-variance-ridge.pdf Graphic file (type pdf)
+
+<use bias-variance-ridge.pdf>
+Package pdftex.def Info: bias-variance-ridge.pdf used on input line 490.
+(pdftex.def)             Requested size: 176.87428pt x 137.52469pt.
+ [22
+
+ <./bias-variance-ridge.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 516--516
+[]\OT1/cmss/m/n/10.95 presence of
+ []
+
+[23
+
+] [24
 
 ] [25
 
@@ -1134,306 +1229,13 @@ Package pdftex.def Info: 4choosek_M4.pdf used on input line 174.
 
 ] [27
 
-] [28
-
-] <RSE_contour.pdf, id=397, 160.92963pt x 187.13113pt>
-File: RSE_contour.pdf Graphic file (type pdf)
-
-<use RSE_contour.pdf>
-Package pdftex.def Info: RSE_contour.pdf used on input line 329.
-(pdftex.def)             Requested size: 104.60301pt x 121.63377pt.
-
-<RSE_subset_constr.pdf, id=398, 172.15176pt x 190.94307pt>
-File: RSE_subset_constr.pdf Graphic file (type pdf)
-
-<use RSE_subset_constr.pdf>
-Package pdftex.def Info: RSE_subset_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 111.8973pt x 124.11151pt.
-
-Overfull \hbox (3.5613pt too wide) in paragraph at lines 329--329
-[][]  
- []
-
-<RSE_lasso_constr.pdf, id=399, 153.10219pt x 185.42014pt>
-File: RSE_lasso_constr.pdf Graphic file (type pdf)
-
-<use RSE_lasso_constr.pdf>
-Package pdftex.def Info: RSE_lasso_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 99.51523pt x 120.52165pt.
-
-<RSE_ridge_constr.pdf, id=400, 153.10219pt x 185.42014pt>
-File: RSE_ridge_constr.pdf Graphic file (type pdf)
-
-<use RSE_ridge_constr.pdf>
-Package pdftex.def Info: RSE_ridge_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 99.51523pt x 120.52165pt.
- [29
-
- <./RSE_contour.pdf> <./RSE_subset_constr.pdf> <./RSE_lasso_constr.pdf> <./RSE_
-ridge_constr.pdf>]
-File: RSE_contour.pdf Graphic file (type pdf)
- <use RSE_contour.pdf>
-Package pdftex.def Info: RSE_contour.pdf used on input line 329.
-(pdftex.def)             Requested size: 104.60301pt x 121.63377pt.
-File: RSE_subset_constr.pdf Graphic file (type pdf)
-
-<use RSE_subset_constr.pdf>
-Package pdftex.def Info: RSE_subset_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 111.8973pt x 124.11151pt.
-
-Overfull \hbox (3.5613pt too wide) in paragraph at lines 329--329
-[][]  
- []
-
-File: RSE_lasso_constr.pdf Graphic file (type pdf)
-<use RSE_lasso_constr.pdf>
-Package pdftex.def Info: RSE_lasso_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 99.51523pt x 120.52165pt.
-File: RSE_ridge_constr.pdf Graphic file (type pdf)
- <use RSE_ridge_constr.pdf>
-Package pdftex.def Info: RSE_ridge_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 99.51523pt x 120.52165pt.
- [30
-
-]
-File: RSE_contour.pdf Graphic file (type pdf)
-
-<use RSE_contour.pdf>
-Package pdftex.def Info: RSE_contour.pdf used on input line 329.
-(pdftex.def)             Requested size: 104.60301pt x 121.63377pt.
-File: RSE_subset_constr.pdf Graphic file (type pdf)
- <use RSE_subset_constr.pdf>
-Package pdftex.def Info: RSE_subset_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 111.8973pt x 124.11151pt.
-
-Overfull \hbox (3.5613pt too wide) in paragraph at lines 329--329
-[][][]  
- []
-
-File: RSE_lasso_constr.pdf Graphic file (type pdf)
-<use RSE_lasso_constr.pdf>
-Package pdftex.def Info: RSE_lasso_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 99.51523pt x 120.52165pt.
-File: RSE_ridge_constr.pdf Graphic file (type pdf)
- <use RSE_ridge_constr.pdf>
-Package pdftex.def Info: RSE_ridge_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 99.51523pt x 120.52165pt.
- [31
-
-]
-File: RSE_contour.pdf Graphic file (type pdf)
-
-<use RSE_contour.pdf>
-Package pdftex.def Info: RSE_contour.pdf used on input line 329.
-(pdftex.def)             Requested size: 104.60301pt x 121.63377pt.
-File: RSE_subset_constr.pdf Graphic file (type pdf)
- <use RSE_subset_constr.pdf>
-Package pdftex.def Info: RSE_subset_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 111.8973pt x 124.11151pt.
-
-Overfull \hbox (3.5613pt too wide) in paragraph at lines 329--329
-[][][]  
- []
-
-File: RSE_lasso_constr.pdf Graphic file (type pdf)
-<use RSE_lasso_constr.pdf>
-Package pdftex.def Info: RSE_lasso_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 99.51523pt x 120.52165pt.
-File: RSE_ridge_constr.pdf Graphic file (type pdf)
- <use RSE_ridge_constr.pdf>
-Package pdftex.def Info: RSE_ridge_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 99.51523pt x 120.52165pt.
- [32
-
-]
-File: RSE_contour.pdf Graphic file (type pdf)
-
-<use RSE_contour.pdf>
-Package pdftex.def Info: RSE_contour.pdf used on input line 329.
-(pdftex.def)             Requested size: 104.60301pt x 121.63377pt.
-File: RSE_subset_constr.pdf Graphic file (type pdf)
- <use RSE_subset_constr.pdf>
-Package pdftex.def Info: RSE_subset_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 111.8973pt x 124.11151pt.
-
-Overfull \hbox (3.5613pt too wide) in paragraph at lines 329--329
-[][][]  
- []
-
-File: RSE_lasso_constr.pdf Graphic file (type pdf)
-<use RSE_lasso_constr.pdf>
-Package pdftex.def Info: RSE_lasso_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 99.51523pt x 120.52165pt.
-File: RSE_ridge_constr.pdf Graphic file (type pdf)
- <use RSE_ridge_constr.pdf>
-Package pdftex.def Info: RSE_ridge_constr.pdf used on input line 329.
-(pdftex.def)             Requested size: 99.51523pt x 120.52165pt.
- [33
-
-]
-<lasso-ridge-subset-vs-ols.pdf, id=807, 507.27821pt x 413.2219pt>
-File: lasso-ridge-subset-vs-ols.pdf Graphic file (type pdf)
-
-<use lasso-ridge-subset-vs-ols.pdf>
-Package pdftex.def Info: lasso-ridge-subset-vs-ols.pdf used on input line 351.
-(pdftex.def)             Requested size: 228.27307pt x 185.94812pt.
-
-Overfull \vbox (3.24681pt too high) detected at line 351
- []
-
-[34
-
- <./lasso-ridge-subset-vs-ols.pdf>] [35
-
-]
-<lasso-v-ridge-45variables.pdf, id=831, 163.93987pt x 126.83395pt>
-File: lasso-v-ridge-45variables.pdf Graphic file (type pdf)
-
-<use lasso-v-ridge-45variables.pdf>
-Package pdftex.def Info: lasso-v-ridge-45variables.pdf used on input line 388.
-(pdftex.def)             Requested size: 163.93945pt x 126.83363pt.
-
-<lasso-v-ridge-2variables.pdf, id=832, 161.35683pt x 124.49551pt>
-File: lasso-v-ridge-2variables.pdf Graphic file (type pdf)
-
-<use lasso-v-ridge-2variables.pdf>
-Package pdftex.def Info: lasso-v-ridge-2variables.pdf used on input line 388.
-(pdftex.def)             Requested size: 161.35641pt x 124.4952pt.
- [36
-
- <./lasso-v-ridge-45variables.pdf> <./lasso-v-ridge-2variables.pdf>]
-File: lasso-v-ridge-45variables.pdf Graphic file (type pdf)
- <use lasso-v-ridge-45variables.pdf>
-Package pdftex.def Info: lasso-v-ridge-45variables.pdf used on input line 388.
-(pdftex.def)             Requested size: 163.93945pt x 126.83363pt.
-File: lasso-v-ridge-2variables.pdf Graphic file (type pdf)
-
-<use lasso-v-ridge-2variables.pdf>
-Package pdftex.def Info: lasso-v-ridge-2variables.pdf used on input line 388.
-(pdftex.def)             Requested size: 161.35641pt x 124.4952pt.
- [37
-
-]
-File: lasso-v-ridge-45variables.pdf Graphic file (type pdf)
- <use lasso-v-ridge-45variables.pdf>
-Package pdftex.def Info: lasso-v-ridge-45variables.pdf used on input line 406.
-(pdftex.def)             Requested size: 163.93945pt x 126.83363pt.
-File: lasso-v-ridge-2variables.pdf Graphic file (type pdf)
-
-<use lasso-v-ridge-2variables.pdf>
-Package pdftex.def Info: lasso-v-ridge-2variables.pdf used on input line 406.
-(pdftex.def)             Requested size: 161.35641pt x 124.4952pt.
- [38
-
-]
-<bias-variance-lasso-2.pdf, id=953, 162.70569pt x 128.23569pt>
-File: bias-variance-lasso-2.pdf Graphic file (type pdf)
-
-<use bias-variance-lasso-2.pdf>
-Package pdftex.def Info: bias-variance-lasso-2.pdf used on input line 425.
-(pdftex.def)             Requested size: 138.30048pt x 109.00084pt.
-
-<lasso-tenfold.pdf, id=954, 326.86603pt x 132.32849pt>
-File: lasso-tenfold.pdf Graphic file (type pdf)
- <use lasso-tenfold.pdf>
-Package pdftex.def Info: lasso-tenfold.pdf used on input line 425.
-(pdftex.def)             Requested size: 277.83742pt x 112.47974pt.
-
-[39
-
- <./bias-variance-lasso-2.pdf> <./lasso-tenfold.pdf>]
-File: bias-variance-lasso-2.pdf Graphic file (type pdf)
-
-<use bias-variance-lasso-2.pdf>
-Package pdftex.def Info: bias-variance-lasso-2.pdf used on input line 425.
-(pdftex.def)             Requested size: 138.30048pt x 109.00084pt.
-File: lasso-tenfold.pdf Graphic file (type pdf)
- <use lasso-tenfold.pdf>
-Package pdftex.def Info: lasso-tenfold.pdf used on input line 425.
-(pdftex.def)             Requested size: 277.83742pt x 112.47974pt.
- [40
-
-] [41
-
-] [42
-
-] [43
-
-]
-[44
-
-] [45
-
-] <bias-variance-ridge.pdf, id=1113, 160.79431pt x 125.02208pt>
-File: bias-variance-ridge.pdf Graphic file (type pdf)
-
-<use bias-variance-ridge.pdf>
-Package pdftex.def Info: bias-variance-ridge.pdf used on input line 489.
-(pdftex.def)             Requested size: 176.87428pt x 137.52469pt.
- [46
-
- <./bias-variance-ridge.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 515--515
-[]\OT1/cmss/m/n/10.95 presence of
- []
-
-[47
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 515--515
-[]\OT1/cmss/m/n/10.95 presence of
- []
-
-[48
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 515--515
-[]\OT1/cmss/m/n/10.95 presence of
- []
-
-[49
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 515--515
-[]\OT1/cmss/m/n/10.95 presence of
- []
-
-[50
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 515--515
-[]\OT1/cmss/m/n/10.95 presence of
- []
-
-[51
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 515--515
-[]\OT1/cmss/m/n/10.95 presence of
- []
-
-[52
-
-] [53
-
-] [54
-
-] [55
-
-] [56
-
-] [57
-
-] [58
-
-]
-<elastic-net.pdf, id=1269, 59.50952pt x 71.64456pt>
+] <elastic-net.pdf, id=1108, 59.50952pt x 71.64456pt>
 File: elastic-net.pdf Graphic file (type pdf)
- <use elastic-net.pdf>
-Package pdftex.def Info: elastic-net.pdf used on input line 626.
-(pdftex.def)             Requested size: 59.50937pt x 71.64438pt.
 
-[59
+<use elastic-net.pdf>
+Package pdftex.def Info: elastic-net.pdf used on input line 627.
+(pdftex.def)             Requested size: 59.50937pt x 71.64438pt.
+ [28
 
  <./elastic-net.pdf>]
 \tf@nav=\write7
@@ -1452,11 +1254,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 628.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 628.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 629.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 629.
 (./15 Model Selection ctd.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 628.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 628.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 629.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 629.
 Package rerunfilecheck Info: File `"15 Model Selection ctd".out' has not change
 d.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
@@ -1471,13 +1273,13 @@ LaTeX Font Warning: Size substitutions with differences
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 20468 strings out of 492995
- 382078 string characters out of 6132704
- 602444 words of memory out of 5000000
- 23427 multiletter control sequences out of 15000+600000
+ 20409 strings out of 492995
+ 381575 string characters out of 6132704
+ 599429 words of memory out of 5000000
+ 23430 multiletter control sequences out of 15000+600000
  21046 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,19n,57p,790b,3916s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,19n,57p,790b,3792s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -1511,10 +1313,10 @@ st/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2017/texmf-dist
 fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2017/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/texmf-dist/fon
 ts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on "15 Model Selection ctd.pdf" (59 pages, 1497221 bytes).
+Output written on "15 Model Selection ctd.pdf" (28 pages, 1455964 bytes).
 PDF statistics:
- 1442 PDF objects out of 1728 (max. 8388607)
- 1175 compressed objects within 12 object streams
- 119 named destinations out of 1000 (max. 500000)
+ 1267 PDF objects out of 1440 (max. 8388607)
+ 1032 compressed objects within 11 object streams
+ 57 named destinations out of 1000 (max. 500000)
  134 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,5 @@
-\documentclass[mathserif, aspectratio=169]{beamer}
+%\documentclass[mathserif, aspectratio=169]{beamer}
+\documentclass[mathserif, handout, aspectratio=169]{beamer}
 
 
 \usepackage{movie15}
@@ -272,7 +273,7 @@ Important:
 \sum_{k=1}^K I(\beta_k) \le s
 \end{cases}}\\\\
 %
-\text{Ridge:} \quad  &\min_\beta \sum_{i=1}^N \left(Y_i - X_i \beta \right)^2+\lambda \cdot \sum_{k=1}^K |\beta_k|
+\text{Lasso:} \quad  &\min_\beta \sum_{i=1}^N \left(Y_i - X_i \beta \right)^2+\lambda \cdot \sum_{k=1}^K |\beta_k|
 &\Leftrightarrow
 \uncover<2->{\begin{cases}
 \min_\beta \sum_{i=1}^N \left(Y_i - X_i \beta \right)^2\\
@@ -280,7 +281,7 @@ Important:
 \sum_{k=1}^K |\beta_k | \le s
 \end{cases}}\\\\
 %
-\text{Lasso:} \quad  &\min_\beta \sum_{i=1}^N \left(Y_i - X_i \beta \right)^2+\lambda \cdot \sum_{k=1}^K \beta_k^2 
+\text{Ridge:} \quad  &\min_\beta \sum_{i=1}^N \left(Y_i - X_i \beta \right)^2+\lambda \cdot \sum_{k=1}^K \beta_k^2 
 &\Leftrightarrow
 \uncover<3->{\begin{cases}
 \min_\beta \sum_{i=1}^N \left(Y_i - X_i \beta \right)^2\\
