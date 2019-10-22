@@ -45,8 +45,8 @@
 \setbeamertemplate{navigation symbols}{}
 
 
-\title[Lecture 20] % (optional, use only with long paper titles)
-{Data, Environment and Society: \\{Lecture 20: Model Selection and Regularization, continued}}
+\title[Lecture 15] % (optional, use only with long paper titles)
+{Data, Environment and Society: \\{Lecture 15: Model Selection and Regularization, continued}}
 
 
 %\subtitle
@@ -54,7 +54,7 @@
 
 \author[ER190C: Data, Environment and Society] 
 {Instructor: Duncan Callaway\\
-GSI: Seigi Karasaki} 
+GSI: Salma Elmallah} 
 % - Give the names in the same order as the appear in the paper.
 % - Use the \inst{?} command only if the authors have different
 %   affiliation.
@@ -64,10 +64,10 @@ GSI: Seigi Karasaki}
 %}
 \vspace{-20mm}
 \institute[UC Berkeley] % (optional, but mostly needed)
- {\small{ \bf October 30, 2018}}
+ {\small{ \bf October 22, 2019}}
 
 
-\date[October 30, 2018]
+\date[October 22, 2019]
 
 \begin{document}
 
@@ -75,28 +75,52 @@ GSI: Seigi Karasaki}
   \titlepage
 }
 
+\begin{frame}{Plagiarism}
 
+``Plagiarism is defined as use of intellectual material produced by another person without acknowledging its source, for example:
+ 
+\begin{itemize}
+	\item \textbf{Wholesale copying of passages from works of others into your homework, essay, term paper, or dissertation without acknowledgment.}
+	\item Use of the views, opinions, or insights of another without acknowledgment.
+	\item Paraphrasing of another person’s characteristic or original phraseology, metaphor, or other literary device without acknowledgment.''
+\end{itemize}
+ (source: Berkeley Division of Student Affairs)
+\end{frame}
 
-\begin{frame}{Recap Thursday's lecture objectives}
+\begin{frame}{Recap lecture objectives from last time}
 \begin{itemize}
 \item Refine our understanding of model identification as an optimization problem
 \uncover<2->{\begin{align*}
 \min_\beta \sum_{i=1}^N \left(Y_i - X_i \beta \right)^2+\lambda \cdot R(\beta)\end{align*}}
+\uncover<3->{Important: We drop the $\lambda$ term for prediction, i.e. predictions are just
+\begin{align*}
+\hat{y_i} =  X_i \hat{\beta}
+\end{align*}
+where $X_i$ and $\hat{\beta}$ are vectors}
+\item<4-> Understand what ``regularization'' is and why we do it
+\begin{itemize}
+\item<5-> A tool for adapting optimization problems to be ``well behaved''
+\item<5-> In statistical learning, a tool to tradeoff bias and variance
+\end{itemize}
+\uncover<5->{But note, $R$ causes you to solve a different problem than the original $\rightarrow$ parameter bias}
+
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Recap lecture objectives from last time, ctd}
+\begin{itemize}
 \item Continue thinking about how to adjust errors to compare models with different $p$
 \begin{itemize}
-\item<3-> k-fold cross validation, AIC, BIC, adjusted R$^2$...
+\item<2-> k-fold cross validation, AIC, BIC, adjusted R$^2$...
 \end{itemize}
-\item Understand what ``regularization'' is and why we do it
+
+\vspace{5mm}
+\item Learn the tradeoffs between subset selection, ridge and lasso
 \begin{itemize}
-\item<4-> A tool for adapting optimization problems to be well behaved
-\item<4-> In statistical learning, a tool to tradeoff bias and variance 
-\item<4-> Something that causes you to solve a different problem than the original $\rightarrow$ parameter bias
-\end{itemize}
-\item Understand tradeoffs between subset selection, ridge and lasso
-\begin{itemize}
-\item<5-> Speed (fastest to slowest): Ridge, Lasso, Subset
-\item<5-> Subset selection and Lasso do feature selection.  Ridge does not.
-\item<5-> You can naturally tune prediction bias-variance with Ridge and Lasso
+\item<3-> Speed (fastest to slowest): Ridge, Lasso, Subset
+\item<3-> Subset selection and Lasso do feature selection.  Ridge does not.
+\item<3-> You can naturally tune prediction bias-variance with Ridge and Lasso
 \end{itemize}
 \end{itemize}
 \end{frame}
@@ -108,7 +132,7 @@ GSI: Seigi Karasaki}
 \item Build deeper intuition on how they work and how they differ.
 \item Learn how the bias-variance tradeoff gets tuned with regularization term parameters. 
 \item Understand the tradeoffs between these methods in more detail
-\item Understand the importance of normalizing your variables.
+\item Understand the importance of standardizing your variables.
 \item Epilogue: the elastic net, a machine learning mashup.  
 \end{enumerate}
 
@@ -172,29 +196,18 @@ Note, last time I referred to $\sum_{i=1}^K \beta^2$ as the 2-norm.  It's not!  
 \textbf{Regularization} Refers to the process of adding a term to the objective function of a problem that 
 \begin{itemize}
 \item Makes the problem ``well behaved" (easier to solve)
+\item In statistical learning, allows us to tune model flexibility
 \item Solves a different problem from the one you originally wanted.\\~\\
 \end{itemize}
 
 In our case, the sum of squared coefficients in Ridge makes the problem very simple to solve, but we get coefficients that are biased.\\~\\
 
-In forecasting, the reduction in variance outweighs the growth in variance.  But what about inference? \\~\\
 
-\pause
-
-\begin{columns}
-\column{0.6\textwidth}
-
-Vapnik:``\textit{Regularization theory was one of the first signs of the existence of intelligent inference}''\\~\\
-
-Why?  You avoid coefficients you shouldn't have considered.
-
-\column{0.4\textwidth}
-\includegraphics[scale=0.4]{vapnik}
-\end{columns}
 \end{frame}
 
 
 \begin{frame}{Objective 2}
+
 
 Building deeper intuition on how these methods work and how they differ.  
 \end{frame}
@@ -215,9 +228,13 @@ Here
 \item $\lambda$ is a tuning parameter -- it is not unique.  
 \item $\mathbf{I}_k$ is the $k\times k$ identity matrix\\~\\
 \end{itemize}
-
-\textbf{Important}! Ridge and Lasso produce different $\beta$ estimates for different choices of $\lambda$.
-
+\vspace{-1mm}
+\pause
+\textbf{Important}! 
+\begin{itemize}
+	\item Ridge and Lasso produce different $\beta$ estimates for different choices of $\lambda$.
+	\item  The $\lambda$ term is not involved in prediction.  Predictions are just $\hat{y_i} =  X_i \hat{\beta}$
+\end{itemize}
 \end{frame}
 
 \begin{frame}{Regularized problems can be converted to constrained problems}
@@ -238,6 +255,7 @@ Important:
 \item $\lambda$ and $s$ are parameters that need to be tuned. 
 \item Increasing $\lambda$ has the same effect as decreasing $s$.  (Forces selection of fewer features.)
 \item $\lambda$ and $s$ are not independent.  
+\item I'm not deriving this result, but I want the intuition to be clear -- ask questions if needed!
 \end{itemize}
 
 \end{frame}
@@ -288,23 +306,21 @@ No constraints.  Red lines are ``constant RSS'' contours
 \pause
 \column{0.25\textwidth}
 \begin{center}
-Subset selection.  If $\sum_{k=1}^K I(\beta_k) \le 1$, solutions on blue lines.
+Subset selection.  If $\sum_{k=1}^K I(\beta_k) \le 1$, solutions in blue area.
 \end{center}
-\includegraphics[scale=0.65]{RSE_subset_constr}
+\uncover<3->{\includegraphics[scale=0.65]{RSE_subset_constr}}
 
-\pause
 \column{0.25\textwidth}
 \begin{center}
-Lasso.   Solutions must be in blue diamond.
+Lasso.   Solutions must be in blue area.
 \end{center}
-\includegraphics[scale=0.65]{RSE_lasso_constr}
+\uncover<4->{\includegraphics[scale=0.65]{RSE_lasso_constr}}
 
-\pause
 \column{0.25\textwidth}
 \begin{center}
-Ridge.  Solutions must be in blue circle.
+Ridge.  Solutions must be in blue area.
 \end{center}
-\includegraphics[scale=0.65]{RSE_ridge_constr}
+\uncover<5->{\includegraphics[scale=0.65]{RSE_ridge_constr}}
 
 \end{columns}
 
@@ -312,14 +328,23 @@ Ridge.  Solutions must be in blue circle.
 
 \end{frame}
 
-\begin{frame}{What do the parameter estimates look like?}
+\begin{frame}{How do the parameter estimates compare?}
 \begin{columns}
 \column{0.6\textwidth}
 \begin{figure}
-\includegraphics[scale=0.5]{lasso-ridge-subset-vs-ols}
+\includegraphics[scale=0.45]{lasso-ridge-subset-vs-ols}
 \caption*{\tiny Figure taken from Imbens 2015 NBER lecture}
 \end{figure}
 \column{0.4\textwidth}
+
+Model: $	y_i = \beta x_i + \epsilon_i$
+
+\vspace{5mm}
+
+Lines are the result of increasing the ``true'' $\beta$, then comparing estimates from different loss functions.
+
+\vspace{5mm}
+
 We often call regularization approaches ``shrinkage'' methods because, in general, they smoosh parameters closer to zero.
 \end{columns}
 
@@ -332,27 +357,53 @@ Learn how the bias-variance tradeoff gets tuned with regularization term paramet
 
 \begin{frame}{Lasso or ridge?}
 
-
+Simulated data set from $n=50$ and $p=45$. Figure shows test MSE on y-axis.  Each point on the curve corresponds to a different $\lambda$.
 \begin{columns}
 \column{0.5\textwidth}
-Simulated data set from $n=50$ and $p=45$.  The response is a function of all 45 predictors.  Figure shows test MSE on y-axis.\\~\\
 \begin{figure}
 \includegraphics[scale=1]{lasso-v-ridge-45variables}
 \end{figure}
 
+\vspace{-10mm}
+
+\begin{center}
+The actual response is a function of\\ \textbf{all 45 predictors}.  
+\end{center}  
+
 \column{0.5\textwidth}
-\uncover<2->{Simulated data set from $n=50$ and $p=45$.  The response is a function of only 2 of the 45 predictors.  Figure shows test MSE on y-axis.\\~\\
+\uncover<2->{
 \begin{figure}
 \includegraphics[scale=1]{lasso-v-ridge-2variables}
-\end{figure}}
+\end{figure}
+\vspace{-10mm}
+\begin{center}
+The actual response is a function of\\ \textbf{only 2 of the 45 predictors.}
+\end{center}  }
 
 \end{columns}
 
-Red show total MSE.  (Black and green are variance and bias.) 
-
+\vspace{5mm}
+\footnotesize Red show total MSE.  (Black and green are variance and bias.) 
 Dashed line -- best Ridge.  Solid line -- best lasso.  
 \end{frame}
 
+
+\begin{frame}{Lasso or ridge -- a general trend}
+
+Ridge works best when the actual number of features is high.  Lasso works best when the actual number of features is low. 
+\vspace{5mm}
+\begin{columns}
+\column{0.5\textwidth}
+\begin{figure}
+\includegraphics[scale=1]{lasso-v-ridge-45variables}
+\end{figure}
+\column{0.5\textwidth}
+\begin{figure}
+\includegraphics[scale=1]{lasso-v-ridge-2variables}
+\end{figure}
+\end{columns}
+
+\end{frame}
 \begin{frame}{Choosing $\lambda$}
 
 As we've seen, $\lambda$ can take a range of values.  Here we see the tradeoff for the 2-of-45 predictors example  lasso example from the last slide. 
@@ -367,6 +418,9 @@ As we've seen, $\lambda$ can take a range of values.  Here we see the tradeoff f
 
 Simple $\lambda$ selection strategy: use k-fold cross validation to test performance on a grid of $\lambda$ values. 
 
+\vspace{5mm}
+
+Regularize for parameter estimation only!  y-axis errors above are just $\sum_i (y_i-X_i\hat{\beta})^2$
 
 \end{frame}
 
@@ -442,7 +496,6 @@ red: total error
 Computing time             \pause                   & high             & very low & low   \\
 Drives parameters to zero?      \pause              & yes              & no       & yes   \\
 Parameters biased relative to ``true'' model? \pause & no               & yes      & yes   \\
-Easy to tune bias-variance?          \pause         & no               & yes      & yes   \\
 Handles correlated features well?     \pause        & yes              & yes      & no    \\
 Interpretability?	  \pause    & size of parameters & not really  & presence of parameters\\
  \hline
@@ -479,18 +532,58 @@ Subset selection can be computationally more prohibitive, so you may not be able
 
 \end{frame}
 
-\begin{frame}{Objective 5}
+\begin{frame}{Objective 5.  First, a thought experiment.}
 
-Normalize your variables!
+	Consider a simple example:  Suppose you want to build a predictive model for ER visits in the East Bay
+	\begin{itemize}
+		\item Independent variable, $y$: Daily ER visits at all hospitals in Oakland.
+		\item Features: 
+			\begin{itemize}
+				\item $X_1$, Particulate matter concentration from EPA's downtown Oakland sensor, in g/m3 
+				\item $X_2$, Average daily temperture at the Oakland Airport.  
+			\end{itemize}
+	\end{itemize}
 
+	You use the model:
+	\begin{equation*}
+		y_i = \beta_0 + \beta_1 x_{1,i} + \beta_2 x_{2,i}
+	\end{equation*}
+
+	Suppose you fit the model with OLS as well as ridge regression (RR), with $\lambda = 0.1$.    
 \end{frame}
 
-\begin{frame}{Normalizing variables}
+\begin{frame}{Thought experiment, continued}
 
-For ridge and lasso, it's important to ``normalize" your variables:
+	\begin{itemize}
+		\item Independent variable, $y$: Daily ER visits at all hospitals in Oakland.
+		\item Features: 
+			\begin{itemize}
+				\item $x_1$, Particulate matter concentration from EPA's downtown Oakland sensor, in g/m3 
+				\item $x_2$, Average daily temperture at the Oakland Airport.  
+			\end{itemize}
+	\end{itemize}
+
+	You realize you want to convert $x_1$ to $\mu$g/m3.  
+
+	\vspace{5mm}
+
+	Which model will yield different predictions with the transformed data?  The one fit with ridge or the one with OLS? \pause Answer: \textbf{Ridge!}   
+	\vspace{5mm}
+
+	In OLS, $\beta_1$ grows by $10^6$ to balance out the re-scaled of $x_1$.  
+	\vspace{5mm}
+
+	With ridge, $\lambda$ will squash $\beta_1$, meaning it won't grow as much as it did with OLS.  The predictions will change.
+\end{frame}
+
+
+
+\begin{frame}{$\Rightarrow$ Objective 5: Understand that you need to standardize variables}
+
+For ridge \textbf{and} lasso, it's important to ``standardize" your variables:
 
 \begin{equation}
-x' = \frac{x - \bar{x}}{\sigma_x}
+x' = \frac{x}{\sigma_x}
 \end{equation}
 
 ...and then fit the model to the normalized values.  \\~\\
@@ -499,7 +592,7 @@ Any guesses why?\\~\\
 
 \pause
 
-Reason: This way variables with large numeric values don't dominate the solution.  
+Reason: This way variables with large range don't dominate the solution.  
 
 \end{frame}
 
@@ -530,18 +623,6 @@ Elastic nets
 \end{figure}
 
 \end{columns}
-\end{frame}
-
-\begin{frame}{Reading questions}
-
-\begin{itemize}
-\item What are their main answers to the question posed in Section 1.2, "Why Find Spatial Predictions for Ozone?"
-\item Section 2.1: Why do the authors average their data?  Could they be missing anything important by doing this?
-\item Section 4.1: Be prepared to describe in words the model the authors are fitting to the data.  Is this a meaningful model to estimate?  Why or why not?
-\item Section 4.2, paragraph 3 to end of Section 4.2:  How does their formulation of the lasso procedure differ from what we learned in class?  Can you see how the two formulations could get similar results?  How does $\lambda$ in the formulation we learned relate to $t$ in the formulation presented in this paper? 
-\item Section 4.3: Be prepared to comment on their model validation procedure.  How might you improve on it?  What problems are they exposed to by taking the approach they do?
-\item Interpretation.  Think about ways in which this approach might be practically applied to improving our understanding of air quality.  Can it be adapted to address equity issues in situations where monitoring stations are sparse?
-\end{itemize}
 \end{frame}
 
 \end{document}
