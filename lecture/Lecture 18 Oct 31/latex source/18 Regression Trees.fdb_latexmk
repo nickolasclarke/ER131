@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1572538866 "18 Regression Trees.tex" "18 Regression Trees.pdf" "18 Regression Trees" 1572538868
+["pdflatex"] 1572546494 "18 Regression Trees.tex" "18 Regression Trees.pdf" "18 Regression Trees" 1572546496
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1480098698 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1480098698 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -230,10 +230,10 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "18 Regression Trees.aux" 1572538867 3653 2d6de6862cd8efc574ac8777f921094e ""
-  "18 Regression Trees.nav" 1572538867 2145 7747398a931b8638af951c402d758fe0 ""
-  "18 Regression Trees.out" 1572538867 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "18 Regression Trees.tex" 1572538864 12906 36fc549e77cfd2254e618fcf554b3df3 ""
+  "18 Regression Trees.aux" 1572546496 3782 eb6b693a6ba4e6afdf671fe0284008d1 ""
+  "18 Regression Trees.nav" 1572546496 2238 a1f1d2d24d07930f86b5a71191201253 ""
+  "18 Regression Trees.out" 1572546495 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "18 Regression Trees.tex" 1572546489 12957 dc2fea1e75461a3eb4d2b4173b3f4410 ""
   "RTree_image.png" 1541522475 396780 31fe57122650a6d1e69dd2467fe030ff ""
   "complex_tree.pdf" 1508223386 99743 12f5dd0ccbede5c4f24118e51a55669f ""
   "decision_tree.png" 1508429515 49333 944b5e85527a051b59684c4b97b52c40 ""
@@ -241,10 +241,10 @@
   "five_region_ex_map.pdf" 1541452732 156567 da7576bfc46f750e9d25b017294b1263 ""
   "partition_examples.pdf" 1508218398 156568 3a864115a72803a0043a820288c79ed5 ""
   (generated)
-  "18 Regression Trees.log"
-  "18 Regression Trees.pdf"
   "18 Regression Trees.toc"
-  "18 Regression Trees.nav"
-  "18 Regression Trees.aux"
   "18 Regression Trees.out"
+  "18 Regression Trees.pdf"
+  "18 Regression Trees.aux"
+  "18 Regression Trees.log"
   "18 Regression Trees.snm"
+  "18 Regression Trees.nav"
