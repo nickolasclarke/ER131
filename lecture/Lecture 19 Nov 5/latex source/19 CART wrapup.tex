@@ -88,14 +88,21 @@ GSI: Salma Elmallah}
 \item Wrap up regression trees
 \begin{itemize}
 \item How to choose with cross validation
+\item Most important concept: Why we need a hyperparameter $\alpha$ to do cross validation
 \end{itemize}
 \item Classification trees
 \begin{itemize}
 \item Same as regression, just different loss functions
+\item Most important concept: how the loss function affects the way you grow trees
 \end{itemize}
 \item Boosting, bagging and random forests
+\begin{itemize}
+	\item Most important concepts: The power of crowds, and how the bias-variance tradeoff needs to be addressed.
 \end{itemize}
+\end{itemize}
+\end{frame}
 
+\begin{frame}{Reading and upcoming}
 \textbf{Reading}
 \begin{itemize}
 \item Today: ISLR Ch. 8.1 - 8.2
@@ -106,9 +113,9 @@ GSI: Salma Elmallah}
 \end{itemize}
 \end{itemize}
 
-\textbf{Announcements}
+\textbf{Upcoming}
 \begin{itemize}
-\item Guest lecture -- Elinor Benami, author of one of the first papers we read this semester.
+\item 11/12: Guest lecture -- Elinor Benami, co-author on ML for enviro monitoring paper.
 \item Exam review 11/14 in class, 11/18 in lab.
 \item Exam 11/19
 \end{itemize}
@@ -128,18 +135,6 @@ where $\hat{y}_{R_k}$ is the mean of all response variables in region k.  \\~\\
 
 It would be tedious to identify $j$ and $s$ by hand, but it's actually very quick computationally.  (Remember, there are only $n-1$ possible splits for each predictor.)
 \end{frame}
-
-\begin{frame}{Ok, we've split one predictor in two.  Now what?}
-
-Next choose the single best split from among \textit{all} possible splits of the two new regions. \textbf{Now we'll have three regions.}\\~\\
-
-In general, on the $n^\text{th}$ step, choose the single best possible split from among the $n$ regions, resulting in $n+1$ regions to take to the next step. \\~\\
-
-Repeat this process until you reach a stopping criterion -- typically a maximum number of observations in each region. (For example all regions have no more than 5 observations.) \\~\\ \textbf{Call the resulting tree $T_0$.} \\~\\
-
-\textbf{We call this approach ``greedy''} because when we do the first partition we're not thinking ahead to future partitions to evaluate it.  
-\end{frame}
-
 
 \begin{frame}{Example $T_0$}
 \begin{columns}
@@ -240,12 +235,6 @@ But: out of convenience the book \textit{displays} results in terms of tree size
 
 \end{frame}
 
-\begin{frame}{Results on Hitters data}
-\begin{figure}
-\includegraphics[width=0.8\textwidth]{MSE_vs_treesize}
-\caption*{``Training'' data are 132 of the 263 original observations.  Test are the reminaining.  CV is done just on the training data -- that is the training data are split into the K folds (6 in this case).  The test data are just used for additional evaluation.}
-\end{figure}
-\end{frame}
 
 \begin{frame}{Question}
 
@@ -334,7 +323,7 @@ Instead, we'll soon talk about formal strategies to deal with this sensitivity -
 \begin{columns}
 \column{0.5\textwidth}
 \begin{center}
-{\LARGE Classification trees} (Covered 11/8, not 11/6)
+{\LARGE Classification trees}
 \end{center}
 \column{0.5\textwidth}
 \includegraphics[height=\textheight]{NYT_tree}

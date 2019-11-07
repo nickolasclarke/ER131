@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 NOV 2019 07:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  5 NOV 2019 09:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1079,10 +1079,10 @@ ion_tree.png>] [2
 ] [4
 
 ]
-<complex_tree.pdf, id=52, 316.40851pt x 281.78928pt>
+<complex_tree.pdf, id=51, 316.40851pt x 281.78928pt>
 File: complex_tree.pdf Graphic file (type pdf)
  <use complex_tree.pdf>
-Package pdftex.def Info: complex_tree.pdf used on input line 153.
+Package pdftex.def Info: complex_tree.pdf used on input line 148.
 (pdftex.def)             Requested size: 246.65761pt x 219.66582pt.
 
 [5
@@ -1103,72 +1103,61 @@ Package pdftex.def Info: complex_tree.pdf used on input line 153.
 
 ] [13
 
-]
-<MSE_vs_treesize.pdf, id=178, 237.42062pt x 163.88637pt>
-File: MSE_vs_treesize.pdf Graphic file (type pdf)
+] [14
 
-<use MSE_vs_treesize.pdf>
-Package pdftex.def Info: MSE_vs_treesize.pdf used on input line 248.
-(pdftex.def)             Requested size: 346.67653pt x 239.3171pt.
-
-Overfull \vbox (81.1158pt too high) detected at line 248
- []
-
-[14
-
- <./MSE_vs_treesize.pdf>] [15
+] [15
 
 ] [16
 
-] [17
+]
+[17
 
 ] [18
 
-] [19
-
-]
-<stingone_etal.png, id=256, 836.12375pt x 387.4475pt>
+] <stingone_etal.png, id=204, 836.12375pt x 387.4475pt>
 File: stingone_etal.png Graphic file (type png)
- <use stingone_etal.png>
-Package pdftex.def Info: stingone_etal.png used on input line 275.
+
+<use stingone_etal.png>
+Package pdftex.def Info: stingone_etal.png used on input line 264.
 (pdftex.def)             Requested size: 433.34402pt x 200.8117pt.
+ [19
 
-[20
+ <./stingone_etal.png>] [20
 
- <./stingone_etal.png>] [21
+] [21
 
 ] [22
 
-] [23
-
 ]
-<stingone_tree_totalpop.pdf, id=280, 419.94507pt x 187.75014pt>
+<stingone_tree_totalpop.pdf, id=229, 419.94507pt x 187.75014pt>
 File: stingone_tree_totalpop.pdf Graphic file (type pdf)
 
 <use stingone_tree_totalpop.pdf>
-Package pdftex.def Info: stingone_tree_totalpop.pdf used on input line 316.
+Package pdftex.def Info: stingone_tree_totalpop.pdf used on input line 305.
 (pdftex.def)             Requested size: 433.34402pt x 193.74289pt.
 
-Overfull \vbox (43.67079pt too high) detected at line 316
+Overfull \vbox (43.67079pt too high) detected at line 305
  []
 
-[24
+[23
 
- <./stingone_tree_totalpop.pdf>] [25
+ <./stingone_tree_totalpop.pdf>] [24
 
 ]
-<NYT_tree.jpg, id=328, 462.528pt x 734.2632pt>
+<NYT_tree.jpg, id=275, 462.528pt x 734.2632pt>
 File: NYT_tree.jpg Graphic file (type jpg)
  <use NYT_tree.jpg>
-Package pdftex.def Info: NYT_tree.jpg used on input line 342.
+Package pdftex.def Info: NYT_tree.jpg used on input line 331.
 (pdftex.def)             Requested size: 153.7498pt x 244.0748pt.
 
-Overfull \vbox (1.0pt too high) detected at line 342
+Overfull \vbox (1.0pt too high) detected at line 331
  []
 
-[26
+[25
 
- <./NYT_tree.jpg>] [27
+ <./NYT_tree.jpg>] [26
+
+] [27
 
 ] [28
 
@@ -1176,86 +1165,84 @@ Overfull \vbox (1.0pt too high) detected at line 342
 
 ] [30
 
-] [31
-
 ]
-<E_vs_G_vs_D.pdf, id=361, 247.77809pt x 147.1908pt>
+<E_vs_G_vs_D.pdf, id=308, 247.77809pt x 147.1908pt>
 File: E_vs_G_vs_D.pdf Graphic file (type pdf)
  <use E_vs_G_vs_D.pdf>
-Package pdftex.def Info: E_vs_G_vs_D.pdf used on input line 421.
+Package pdftex.def Info: E_vs_G_vs_D.pdf used on input line 410.
 (pdftex.def)             Requested size: 195.00348pt x 115.84373pt.
 
-[32
+[31
 
  <./E_vs_G_vs_D.pdf>]
 File: E_vs_G_vs_D.pdf Graphic file (type pdf)
  <use E_vs_G_vs_D.pdf>
-Package pdftex.def Info: E_vs_G_vs_D.pdf used on input line 443.
+Package pdftex.def Info: E_vs_G_vs_D.pdf used on input line 432.
 (pdftex.def)             Requested size: 195.00348pt x 115.84373pt.
- [33
+ [32
 
-] [34
+] [33
 
 ]
-<tree_vs_linear_for_classification.pdf, id=439, 250.98045pt x 242.55098pt>
+<tree_vs_linear_for_classification.pdf, id=388, 250.98045pt x 242.55098pt>
 File: tree_vs_linear_for_classification.pdf Graphic file (type pdf)
 
 <use tree_vs_linear_for_classification.pdf>
 Package pdftex.def Info: tree_vs_linear_for_classification.pdf used on input li
-ne 462.
+ne 451.
 (pdftex.def)             Requested size: 227.3011pt x 219.66582pt.
 
-Overfull \vbox (37.46452pt too high) detected at line 462
+Overfull \vbox (37.46452pt too high) detected at line 451
  []
 
-[35
+[34
 
- <./tree_vs_linear_for_classification.pdf>] [36
+ <./tree_vs_linear_for_classification.pdf>] [35
 
-] [37
+] [36
 
 ]
-LaTeX Font Info:    Try loading font information for TS1+cmss on input line 500
+LaTeX Font Info:    Try loading font information for TS1+cmss on input line 489
 .
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmss.fd
 File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-) [38
+) [37
 
 ]
-<spam_error.pdf, id=505, 309.16293pt x 227.71254pt>
+<spam_error.pdf, id=455, 309.16293pt x 227.71254pt>
 File: spam_error.pdf Graphic file (type pdf)
  <use spam_error.pdf>
-Package pdftex.def Info: spam_error.pdf used on input line 507.
+Package pdftex.def Info: spam_error.pdf used on input line 496.
 (pdftex.def)             Requested size: 346.67653pt x 255.34554pt.
 
-Overfull \vbox (62.27074pt too high) detected at line 507
+Overfull \vbox (62.27074pt too high) detected at line 496
+ []
+
+[38
+
+ <./spam_error.pdf>] <spam_tree.pdf, id=502, 364.07738pt x 384.29262pt>
+File: spam_tree.pdf Graphic file (type pdf)
+
+<use spam_tree.pdf>
+Package pdftex.def Info: spam_tree.pdf used on input line 519.
+(pdftex.def)             Requested size: 215.04823pt x 226.98776pt.
+
+Overfull \vbox (21.91296pt too high) detected at line 519
  []
 
 [39
 
- <./spam_error.pdf>] <spam_tree.pdf, id=549, 364.07738pt x 384.29262pt>
-File: spam_tree.pdf Graphic file (type pdf)
-
-<use spam_tree.pdf>
-Package pdftex.def Info: spam_tree.pdf used on input line 530.
-(pdftex.def)             Requested size: 215.04823pt x 226.98776pt.
-
-Overfull \vbox (21.91296pt too high) detected at line 530
- []
-
-[40
-
  <./spam_tree.pdf>]
 File: spam_tree.pdf Graphic file (type pdf)
  <use spam_tree.pdf>
-Package pdftex.def Info: spam_tree.pdf used on input line 539.
+Package pdftex.def Info: spam_tree.pdf used on input line 528.
 (pdftex.def)             Requested size: 346.8604pt x 366.1122pt.
 
-Overfull \vbox (155.45816pt too high) detected at line 539
+Overfull \vbox (155.45816pt too high) detected at line 528
  []
 
-[41
+[40
 
 ]
 \tf@nav=\write7
@@ -1274,11 +1261,11 @@ Package movie15 Warning: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 (movie15)                @@ superseded by `media9'.           @@
 (movie15)                @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 540.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 540.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 529.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 529.
 (./19 CART wrapup.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 540.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 540.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 529.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 529.
 Package rerunfilecheck Info: File `"19 CART wrapup".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1292,13 +1279,13 @@ LaTeX Font Warning: Size substitutions with differences
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 20573 strings out of 492995
- 384720 string characters out of 6132704
- 596677 words of memory out of 5000000
- 23565 multiletter control sequences out of 15000+600000
+ 20564 strings out of 492995
+ 384571 string characters out of 6132704
+ 596678 words of memory out of 5000000
+ 23559 multiletter control sequences out of 15000+600000
  22351 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,15n,63p,782b,4050s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,15n,63p,782b,4040s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm
 -super-ts1.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmbx9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -1333,10 +1320,10 @@ ist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2017/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texlive/2017/texmf-di
 st/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on "19 CART wrapup.pdf" (41 pages, 2008005 bytes).
+Output written on "19 CART wrapup.pdf" (40 pages, 1978110 bytes).
 PDF statistics:
- 686 PDF objects out of 1000 (max. 8388607)
- 541 compressed objects within 6 object streams
- 83 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 639 PDF objects out of 1000 (max. 8388607)
+ 501 compressed objects within 6 object streams
+ 81 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 

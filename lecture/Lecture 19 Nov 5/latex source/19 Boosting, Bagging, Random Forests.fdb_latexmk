@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1572965427 "19 Boosting, Bagging, Random Forests.tex" "19 Boosting, Bagging, Random Forests.pdf" "19 Boosting, Bagging, Random Forests" 1572965430
+["pdflatex"] 1572974904 "19 Boosting, Bagging, Random Forests.tex" "19 Boosting, Bagging, Random Forests.pdf" "19 Boosting, Bagging, Random Forests" 1572974907
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1480098698 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1480098698 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -249,10 +249,10 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "19 Boosting, Bagging, Random Forests.aux" 1572965430 4818 db9eb5547e75a4ba8557ecb42761aa8d ""
-  "19 Boosting, Bagging, Random Forests.nav" 1572965430 2986 5ec76ec319a538e23a74b05ea195f03d ""
-  "19 Boosting, Bagging, Random Forests.out" 1572965428 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "19 Boosting, Bagging, Random Forests.tex" 1572965424 14914 13d058df54b5bc5415ad1bcaba214ec2 ""
+  "19 Boosting, Bagging, Random Forests.aux" 1572974906 4691 ceee79b2b51d9573f9340dedf83a84f3 ""
+  "19 Boosting, Bagging, Random Forests.nav" 1572974906 2895 05a7f6256361530d3ffc6d98999190ae ""
+  "19 Boosting, Bagging, Random Forests.out" 1572974904 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "19 Boosting, Bagging, Random Forests.tex" 1572974756 14832 b594c4a5842df45222d6a39d2a9fc0da ""
   "Leo_Breiman.jpg" 1508998420 23858 ee72d2f04c626f4c33227ea86003e1bb ""
   "MEDR.png" 1508969372 72357 15fbe4ac85d7b6b08defd0a55427ac9c ""
   "VIM.pdf" 1508997587 316930 c167c58242b59e3e88b01a9d4cfaca36 ""
@@ -269,10 +269,10 @@
   "singh_etal.pdf" 1509024085 260991 a4d1dca3b43a88c838922c692b826bc1 ""
   "singh_table1.png" 1509024336 181454 33d7db61603027aac549f4f869251c85 ""
   (generated)
-  "19 Boosting, Bagging, Random Forests.aux"
-  "19 Boosting, Bagging, Random Forests.toc"
   "19 Boosting, Bagging, Random Forests.log"
-  "19 Boosting, Bagging, Random Forests.snm"
-  "19 Boosting, Bagging, Random Forests.out"
   "19 Boosting, Bagging, Random Forests.pdf"
   "19 Boosting, Bagging, Random Forests.nav"
+  "19 Boosting, Bagging, Random Forests.aux"
+  "19 Boosting, Bagging, Random Forests.out"
+  "19 Boosting, Bagging, Random Forests.snm"
+  "19 Boosting, Bagging, Random Forests.toc"
