@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  7 NOV 2019 07:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  7 NOV 2019 09:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1035,26 +1035,26 @@ Overfull \vbox (1.0pt too high) detected at line 77
 
 [2
 
- <./new_yorker.png>] [3
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 108.
+ <./new_yorker.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 91.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 108.
+LaTeX Font Info:    Try loading font information for U+msb on input line 91.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [4
+) [3
+
+] [4
 
 ]
 <murray_hackernoon_2017_face.png, id=45, 722.7pt x 383.4325pt>
 File: murray_hackernoon_2017_face.png Graphic file (type png)
 
 <use murray_hackernoon_2017_face.png>
-Package pdftex.def Info: murray_hackernoon_2017_face.png used on input line 123
+Package pdftex.def Info: murray_hackernoon_2017_face.png used on input line 126
 .
 (pdftex.def)             Requested size: 180.67455pt x 95.85788pt.
 
@@ -1062,17 +1062,17 @@ Package pdftex.def Info: murray_hackernoon_2017_face.png used on input line 123
 File: thome_character.png Graphic file (type png)
 
 <use thome_character.png>
-Package pdftex.def Info: thome_character.png used on input line 123.
+Package pdftex.def Info: thome_character.png used on input line 126.
 (pdftex.def)             Requested size: 135.95668pt x 97.11191pt.
 
 <malik_2009_handwriting.png, id=47, 556.0775pt x 562.1pt>
 File: malik_2009_handwriting.png Graphic file (type png)
 
 <use malik_2009_handwriting.png>
-Package pdftex.def Info: malik_2009_handwriting.png used on input line 123.
+Package pdftex.def Info: malik_2009_handwriting.png used on input line 126.
 (pdftex.def)             Requested size: 100.08963pt x 101.17363pt.
 
-Overfull \vbox (9.28856pt too high) detected at line 123
+Overfull \vbox (9.28856pt too high) detected at line 126
  []
 
 [5
@@ -1082,7 +1082,7 @@ writing.png>] <lu_etal_OzoneSVM.png, id=56, 596.2275pt x 249.93375pt>
 File: lu_etal_OzoneSVM.png Graphic file (type png)
 
 <use lu_etal_OzoneSVM.png>
-Package pdftex.def Info: lu_etal_OzoneSVM.png used on input line 140.
+Package pdftex.def Info: lu_etal_OzoneSVM.png used on input line 143.
 (pdftex.def)             Requested size: 357.73926pt x 149.9614pt.
  [6
 
@@ -1091,7 +1091,7 @@ Package pdftex.def Info: lu_etal_OzoneSVM.png used on input line 140.
 File: Shi_etal_ForecastingPower.png Graphic file (type png)
 
 <use Shi_etal_ForecastingPower.png>
-Package pdftex.def Info: Shi_etal_ForecastingPower.png used on input line 157.
+Package pdftex.def Info: Shi_etal_ForecastingPower.png used on input line 160.
 (pdftex.def)             Requested size: 329.62566pt x 203.95837pt.
  [7
 
@@ -1100,7 +1100,7 @@ Package pdftex.def Info: Shi_etal_ForecastingPower.png used on input line 157.
 File: depuru_etal_SVMTheft.png Graphic file (type png)
 
 <use depuru_etal_SVMTheft.png>
-Package pdftex.def Info: depuru_etal_SVMTheft.png used on input line 175.
+Package pdftex.def Info: depuru_etal_SVMTheft.png used on input line 178.
 (pdftex.def)             Requested size: 305.53607pt x 96.35828pt.
  [8
 
@@ -1131,144 +1131,162 @@ Package pdftex.def Info: depuru_etal_SVMTheft.png used on input line 175.
 
 ] [21
 
-]
-<ISLR_9point5.pdf, id=150, 330.21071pt x 139.30754pt>
-File: ISLR_9point5.pdf Graphic file (type pdf)
- <use ISLR_9point5.pdf>
-Package pdftex.def Info: ISLR_9point5.pdf used on input line 335.
-(pdftex.def)             Requested size: 303.3395pt x 127.97954pt.
+] [22
 
-[22
-
- <./ISLR_9point5.pdf>] [23
+] [23
 
 ] [24
 
 ] [25
 
 ]
-<small_vs_big_C.pdf, id=240, 333.38667pt x 324.74635pt>
-File: small_vs_big_C.pdf Graphic file (type pdf)
+[26
 
-<use small_vs_big_C.pdf>
-Package pdftex.def Info: small_vs_big_C.pdf used on input line 402.
-(pdftex.def)             Requested size: 225.51465pt x 219.66582pt.
- [26
-
- <./small_vs_big_C.pdf>] [27
+] [27
 
 ] [28
 
+] [29
+
+] <ISLR_9point5.pdf, id=192, 330.21071pt x 139.30754pt>
+File: ISLR_9point5.pdf Graphic file (type pdf)
+
+<use ISLR_9point5.pdf>
+Package pdftex.def Info: ISLR_9point5.pdf used on input line 363.
+(pdftex.def)             Requested size: 303.3395pt x 127.97954pt.
+ [30
+
+ <./ISLR_9point5.pdf>] [31
+
+] [32
+
+] [33
+
 ]
-Overfull \vbox (2.7433pt too high) detected at line 468
+<small_vs_big_C.pdf, id=281, 333.38667pt x 324.74635pt>
+File: small_vs_big_C.pdf Graphic file (type pdf)
+
+<use small_vs_big_C.pdf>
+Package pdftex.def Info: small_vs_big_C.pdf used on input line 430.
+(pdftex.def)             Requested size: 225.51465pt x 219.66582pt.
+ [34
+
+ <./small_vs_big_C.pdf>] [35
+
+] [36
+
+] [37
+
+]
+Overfull \vbox (2.7433pt too high) detected at line 496
  []
 
-[29
+[38
 
-] <SVM_kernels.pdf, id=314, 331.22813pt x 168.72777pt>
+] <SVM_kernels.pdf, id=361, 331.22813pt x 168.72777pt>
 File: SVM_kernels.pdf Graphic file (type pdf)
 
 <use SVM_kernels.pdf>
-Package pdftex.def Info: SVM_kernels.pdf used on input line 483.
+Package pdftex.def Info: SVM_kernels.pdf used on input line 511.
 (pdftex.def)             Requested size: 264.98286pt x 134.98238pt.
- [30
+ [39
 
  <./SVM_kernels.pdf>]
-<shao_JPRS.png, id=401, 1099.10625pt x 425.59pt>
+<shao_JPRS.png, id=449, 1099.10625pt x 425.59pt>
 File: shao_JPRS.png Graphic file (type png)
  <use shao_JPRS.png>
-Package pdftex.def Info: shao_JPRS.png used on input line 491.
+Package pdftex.def Info: shao_JPRS.png used on input line 519.
 (pdftex.def)             Requested size: 433.34402pt x 167.79773pt.
- [31
+ [40
 
- <./shao_JPRS.png>] [32
+ <./shao_JPRS.png>] [41
 
-] <shao_figure.png, id=414, 1049.9225pt x 757.83125pt>
+] <shao_figure.png, id=461, 1049.9225pt x 757.83125pt>
 File: shao_figure.png Graphic file (type png)
 
 <use shao_figure.png>
-Package pdftex.def Info: shao_figure.png used on input line 522.
+Package pdftex.def Info: shao_figure.png used on input line 550.
 (pdftex.def)             Requested size: 304.32555pt x 219.66582pt.
 
-Overfull \vbox (37.46452pt too high) detected at line 522
+Overfull \vbox (37.46452pt too high) detected at line 550
  []
 
-[33
+[42
 
  <./shao_figure.png>]
-<shao_performance.png, id=421, 423.5825pt x 573.14125pt>
+<shao_performance.png, id=468, 423.5825pt x 573.14125pt>
 File: shao_performance.png Graphic file (type png)
 
 <use shao_performance.png>
-Package pdftex.def Info: shao_performance.png used on input line 529.
+Package pdftex.def Info: shao_performance.png used on input line 557.
 (pdftex.def)             Requested size: 180.38536pt x 244.0748pt.
 
-Overfull \vbox (39.0pt too high) detected at line 529
+Overfull \vbox (39.0pt too high) detected at line 557
  []
 
-[34
+[43
 
- <./shao_performance.png>] [35
+ <./shao_performance.png>] [44
 
 ]
-<fig9_10.png, id=433, 848.16875pt x 527.9725pt>
+<fig9_10.png, id=481, 848.16875pt x 527.9725pt>
 File: fig9_10.png Graphic file (type png)
  <use fig9_10.png>
-Package pdftex.def Info: fig9_10.png used on input line 552.
+Package pdftex.def Info: fig9_10.png used on input line 580.
 (pdftex.def)             Requested size: 433.34402pt x 269.74577pt.
 
-Overfull \vbox (87.54448pt too high) detected at line 552
+Overfull \vbox (87.54448pt too high) detected at line 580
  []
 
-[36
+[45
 
- <./fig9_10.png>] <fig9_11.png, id=440, 848.16875pt x 528.97626pt>
+ <./fig9_10.png>] <fig9_11.png, id=488, 848.16875pt x 528.97626pt>
 File: fig9_11.png Graphic file (type png)
 
 <use fig9_11.png>
-Package pdftex.def Info: fig9_11.png used on input line 559.
+Package pdftex.def Info: fig9_11.png used on input line 587.
 (pdftex.def)             Requested size: 433.34402pt x 270.2586pt.
 
-Overfull \vbox (88.05731pt too high) detected at line 559
+Overfull \vbox (88.05731pt too high) detected at line 587
  []
 
-[37
+[46
 
- <./fig9_11.png>] [38
+ <./fig9_11.png>] [47
 
-] [39
+] [48
 
-] <ESL_12_2a.png, id=459, 336.25626pt x 329.23pt>
+] <ESL_12_2a.png, id=505, 336.25626pt x 329.23pt>
 File: ESL_12_2a.png Graphic file (type png)
 
 <use ESL_12_2a.png>
-Package pdftex.def Info: ESL_12_2a.png used on input line 582.
+Package pdftex.def Info: ESL_12_2a.png used on input line 610.
 (pdftex.def)             Requested size: 179.83485pt x 176.07854pt.
- <ESL_12_2b.png, id=460, 328.22626pt x 329.23pt>
+ <ESL_12_2b.png, id=506, 328.22626pt x 329.23pt>
 File: ESL_12_2b.png Graphic file (type png)
 
 <use ESL_12_2b.png>
-Package pdftex.def Info: ESL_12_2b.png used on input line 582.
+Package pdftex.def Info: ESL_12_2b.png used on input line 610.
 (pdftex.def)             Requested size: 173.33496pt x 173.86813pt.
 
-Overfull \vbox (5.87724pt too high) detected at line 582
+Overfull \vbox (5.87724pt too high) detected at line 610
  []
 
-[40
+[49
 
  <./ESL_12_2a.png> <./ESL_12_2b.png>]
-<ESL_12_3a.png, id=468, 338.26375pt x 336.25626pt>
+<ESL_12_3a.png, id=515, 338.26375pt x 336.25626pt>
 File: ESL_12_3a.png Graphic file (type png)
  <use ESL_12_3a.png>
-Package pdftex.def Info: ESL_12_3a.png used on input line 591.
+Package pdftex.def Info: ESL_12_3a.png used on input line 619.
 (pdftex.def)             Requested size: 176.58821pt x 175.5418pt.
 
-<ESL_12_3b.png, id=469, 328.22626pt x 336.25626pt>
+<ESL_12_3b.png, id=516, 328.22626pt x 336.25626pt>
 File: ESL_12_3b.png Graphic file (type png)
  <use ESL_12_3b.png>
-Package pdftex.def Info: ESL_12_3b.png used on input line 591.
+Package pdftex.def Info: ESL_12_3b.png used on input line 619.
 (pdftex.def)             Requested size: 173.33496pt x 177.57874pt.
- [41
+ [50
 
  <./ESL_12_3a.png> <./ESL_12_3b.png>]
 \tf@nav=\write7
@@ -1280,11 +1298,11 @@ Package pdftex.def Info: ESL_12_3b.png used on input line 591.
 \tf@snm=\write9
 \openout9 = `"20 SVM.snm"'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 593.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 593.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 621.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 621.
  (./20 SVM.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 593.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 593.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 621.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 621.
 Package rerunfilecheck Info: File `"20 SVM".out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
@@ -1298,13 +1316,13 @@ LaTeX Font Warning: Size substitutions with differences
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 20161 strings out of 492995
- 376550 string characters out of 6132704
- 557476 words of memory out of 5000000
- 23153 multiletter control sequences out of 15000+600000
+ 20181 strings out of 492995
+ 376737 string characters out of 6132704
+ 560477 words of memory out of 5000000
+ 23155 multiletter control sequences out of 15000+600000
  21455 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,15n,57p,774b,3912s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,15n,57p,774b,3950s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmbx9.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmex10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm
@@ -1329,10 +1347,10 @@ xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texl
 ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texliv
 e/2017/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on "20 SVM.pdf" (41 pages, 9322458 bytes).
+Output written on "20 SVM.pdf" (50 pages, 9336472 bytes).
 PDF statistics:
- 549 PDF objects out of 1000 (max. 8388607)
- 413 compressed objects within 5 object streams
- 83 named destinations out of 1000 (max. 500000)
+ 599 PDF objects out of 1000 (max. 8388607)
+ 454 compressed objects within 5 object streams
+ 101 named destinations out of 1000 (max. 500000)
  144 words of extra memory for PDF output out of 10000 (max. 10000000)
 

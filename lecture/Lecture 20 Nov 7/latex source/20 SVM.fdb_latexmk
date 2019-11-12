@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1573138869 "20 SVM.tex" "20 SVM.pdf" "20 SVM" 1573138873
+["pdflatex"] 1573149529 "20 SVM.tex" "20 SVM.pdf" "20 SVM" 1573149533
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1480098698 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy6.tfm" 1480098698 1124 14ccf5552bc7f77ca02a8a402bea8bfb ""
@@ -229,10 +229,10 @@
   "/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1495593472 2350277 a699055bee05bf8a40b0504752487295 ""
   "/usr/local/texlive/2017/texmf-var/web2c/pdftex/pdflatex.fmt" 1495593487 4129592 0e6cfee100d68e6d96b92c0258f2ff73 ""
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
-  "20 SVM.aux" 1573138873 5703 b42a40da877cd061c1feb10fccef881d ""
-  "20 SVM.nav" 1573138873 3619 2cfc824ca052f51b6c72b3cda0f125ca ""
-  "20 SVM.out" 1573138869 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "20 SVM.tex" 1573138869 15769 558e088dee5addf2b4ee1046d9a875da ""
+  "20 SVM.aux" 1573149533 5834 a1747b962f0435ee6dc32bc934896c05 ""
+  "20 SVM.nav" 1573149533 3714 858cc2d5a646b2e1d45adce2545ec2e7 ""
+  "20 SVM.out" 1573149529 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "20 SVM.tex" 1573147263 17306 290053e2af28de0744c17102f1ebb4fe ""
   "ESL_12_2a.png" 1510075096 125099 a3701dde6ef667765122e176d155ba8c ""
   "ESL_12_2b.png" 1510075104 126232 3b051356494b75f842f695a1cf630803 ""
   "ESL_12_3a.png" 1510075179 160248 b0f4d183c2f125f946e53b5b353bf212 ""
@@ -253,10 +253,10 @@
   "small_vs_big_C.pdf" 1542093389 93177 9f56c2c674cff7dc4846b4689b48cf58 ""
   "thome_character.png" 1542052579 217759 5a708a1410603051fa64f39ab44493c5 ""
   (generated)
-  "20 SVM.aux"
   "20 SVM.snm"
   "20 SVM.toc"
+  "20 SVM.aux"
+  "20 SVM.log"
+  "20 SVM.nav"
   "20 SVM.pdf"
   "20 SVM.out"
-  "20 SVM.nav"
-  "20 SVM.log"
