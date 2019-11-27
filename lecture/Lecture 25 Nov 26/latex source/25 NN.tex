@@ -73,17 +73,32 @@ GSI: Salma Elmallah}
 
 \begin{frame}{Announcements}
 	\begin{itemize}
-		\item 
+		\item HW10 due today
+		\item Next today and tuesday: neural nets
+		\begin{itemize}
+			\item Feel free to use on projects -- but no HW here.
+		\end{itemize}
+		\item Course evaluations available online; I will make time next Tuesday
+		\item Thursday: Career panel
+		\begin{itemize}
+			\item JP Dolphin, manager of Strategic Data Science at PG\&E
+			\item Tanner Burke, senior data engineer, Streetlight Data
+			\item Jason Harville, assistant executive director of the Energy Data and Analytics Office, California Energy Commission
+		\end{itemize}
 	\end{itemize}
 \end{frame}
 
 
 \begin{frame}{Today's outline}
-	\begin{itemize}
-		\item Neural networks (NN) -- very brief introduction
-		\item Experiment with tensorflow playground -- try fitting different classification problems
+	\begin{enumerate}
+		\item Neural networks (NN) 
+		\begin{itemize}
+			\item  Brief introduction
+			\item Experiment with tensorflow playground -- try fitting different classification problems
+			\item Objective: Understand the role of key parameters, what the hyperparameters are, and the model fitting process
+		\end{itemize}
 		\item Exam handout and discussion
-	\end{itemize}
+	\end{enumerate}
 \end{frame}
 
 
@@ -93,10 +108,12 @@ GSI: Salma Elmallah}
 		\column{0.5\textwidth}
 			\begin{itemize}
 				\item The name is due to analogy with brains
-				\begin{itemize}
-					\item But the original purpose was not to reproduce cognition
-				\end{itemize}
 				\item First developed in 1943
+				\item Inspired the development of the perceptron (see HW10) in the `50s
+				\begin{itemize}
+					\item Here the purpose was just to remove noise on phone lines
+					\item Not to reproduce thought...
+				\end{itemize}
 				\item Little research activity $\sim$1960-1990's due to computing limitations
 				\begin{itemize}
 					\item Major exception: Werbos developed back-propogation in 1974.  First effort to get NN to ``learn'' parameters
@@ -142,7 +159,7 @@ GSI: Salma Elmallah}
 	    	\vspace{15mm}
 	    	\item $\tanh$
 	    	\vspace{15mm}
-	       	\item rectified linear
+	       	\item rectified linear (ReLU)
 	    \end{enumerate}
 	    \column{0.7\textwidth}
 	    \pause
@@ -182,19 +199,20 @@ GSI: Salma Elmallah}
     \begin{itemize}
     	\item $\alpha_{ij}^{(l)} \rightarrow$ weight from node $j$ in layer\\ $l$ to node $i$ in $l+1$ layer.
     	\item $a_{i}^{(l)} \rightarrow$ output of node $i$ in layer $l$.
-    	\item $z_i^{(l)} \rightarrow$ input into node $i$ in layer $l$.
+    %	\item $z_i^{(l)} \rightarrow$ input into node $i$ in layer $l$.
     \end{itemize}
 
     \begin{columns}
     	\column{0.5\textwidth}
     	    \begin{align*}
-		     	a_1^{(2)} &= \uncover<2->{\alpha_{10}^{(1)} + \alpha_{11}^{(1)}a_1^{(1)}+\alpha_{12}^{(1)}a_2^{(1)}+\alpha_{13}^{(1)}a_3^{(1)}} \\
-		     	a_1^{(3)} &= \uncover<2->{\alpha_{10}^{(2)} + \sum_{j=1}^M\alpha_{1j}^{(2)}} \\
+		     	a_1^{(2)} &= \uncover<2->{f(\alpha_{10}^{(1)} + \alpha_{11}^{(1)}x_1^{(1)}+\alpha_{12}^{(1)}x_2^{(1)}+\alpha_{13}^{(1)}x_3^{(1)})} \\
+		     	a_1^{(3)} &= \uncover<2->{f(\alpha_{10}^{(2)} + \sum_{j=1}^M\alpha_{1j}^{(2)}a_j^{(2)})} \\
 		    \end{align*}
 	    \column{0.5\textwidth}
     \end{columns}
-    
-    Question: What are the parameters of a neural network model?
+    Note that I used $x$ in the first equation because I'm calling the features (inputs to the model) the first ``layer'' of the network
+	
+    \textbf{Question}: What are the parameters of a neural network model?
 
     \uncover<2->{    Just the $\alpha$ values.  $a$ values are outputs from internal nodes or neurons.  We call these ``hidden states'' because they depend on the input values $x$.  }
 \end{frame}
@@ -213,29 +231,32 @@ GSI: Salma Elmallah}
 \begin{frame}{Compact notation motivates a name...}
 	\pause
 	\begin{align*}
-		x &: \text{vector of inputs}\\
-		z^{(2)} & = \alpha_0^{(1)} + \alpha^{(1)}x \\
-		a^{(2)} & = f(z^{(2)})\\
-		z^{(3)} & = \alpha_0^{(2)} + \alpha^{(2)}a^{(2)} \\
+		a^{(2)}_i &= f(\alpha_{i0}^{(1)} + \alpha_{i1}^{(1)}x_1^{(1)}+\alpha_{i2}^{(1)}x_2^{(1)}+\alpha_{i3}^{(1)}x_3^{(1)})\\
+		a^{(3)}_i & = f(\alpha_{i0}^{(2)} + \sum_{j=1}^{M_2} \alpha_{ij}^{(2)}a_j^{(2)}) \quad (M_j \text{ is the number of neurons in layer $j$})\\
+		a^{(4)}_i & = f(\alpha_{i0}^{(3)} + \sum_{j=1}^{M_3} \alpha_{ij}^{(3)}a_j^{(3)})\\
 		&\vdots\\
-		h_\alpha(x) &= f(z^{(\ell)}) \quad \ell \text{ is the number of layers}
+		h_\alpha(x) &= f(a^{(\ell)}, \alpha^{(\ell)}) \quad \text{Final output of NN. }\ell \text{ is the number of layers}
 	\end{align*}
 
-	For this reason we call these networks ``feedforward'' networks because information passes from the features (predictors) to the output (target)
+	\begin{itemize}
+		\item The $_\alpha$ subscript means $h$ is a function of ALL the $\alpha$ values of the network
+		\item We dropped subscripts on $a$, meaning $a$ is a vector of inputs to the final layer
+	\end{itemize}
+	Because each layer informs the next, we call this a \textbf{feedforward} neural network.
 \end{frame}
 
-\begin{frame}[t]\frametitle{Fitting the model}
+\begin{frame}[t]\frametitle{Fitting the model - regression}
 	Training data: $\{(x_1,y_1), (x_2,y_2), \hdots, (x_n,y_n)\}$
 
 	\vspace{5mm}
 
-	$x_k \in \mathbb{R}^p$ ($p$ features)\\
-	$y_k \in \mathbb{R}^K$ ($k$ outputs)
+	$x \in \mathbb{R}^p$ ($p$ features), single output, $y$
 
+	\vspace{5mm}
 	Objective function: 
 	\pause
 
-	\includegraphics[height = 0.5\textheight]{NN_J}
+	\includegraphics[width = 0.9\textwidth]{NN_J}
 
 \end{frame}
 
@@ -243,7 +264,13 @@ GSI: Salma Elmallah}
     
 	\begin{itemize}
 	 	\item Form is amenable to classification, just one-hot encode the output and use classification error rate as your objective
-	 	\item For regression, be sure to scale the output variables to lie in the range of the activation function. 
+	 	\item For regression, be sure to scale the \textit{output} variables to lie in the range of the activation function. 
+	 	\begin{itemize}
+	 		\item For sigmoid, scale to: \pause $[0,1]$
+	 		\item Tanh: \pause $[-1,1]$
+	 		\pause
+	 		\item (I \textit{believe} ReLU requires shifting output to be non-negative; textbook does not address.)
+	 	\end{itemize}
 	 	\item Solving the objective function involves a form of gradient search
 	 	\begin{itemize}
 	 	 	\item The partial derivatives are found via a technique called backpropogation
